@@ -1,0 +1,48 @@
+{
+  "version": "1.3.1",
+  "timestamp": "2025-06-07T01:29:18.159205",
+  "input_file": "input/2024_math_nation_newI.pdf",
+  "output_files": {
+    "markdown": "output/2024_math_nation_newI_20250607_012918.md"
+  },
+  "stats": {
+    "start_time": "2025-06-07T01:28:28.549418",
+    "file_type": "pdf",
+    "end_time": "2025-06-07T01:29:18.159199",
+    "status": "error",
+    "error": "unsupported format character '?' (0x8bbe) at index 239"
+  },
+  "optimization_features": {
+    "v1.3.1": [
+      "修复LaTeX模板处理问题",
+      "改进日志系统版本记录",
+      "优化错误处理和报告",
+      "修复编码问题",
+      "添加版本信息到输出文件"
+    ]
+  },
+  "system_info": {
+    "os": "Darwin 24.5.0",
+    "python_version": "3.10.13",
+    "tesseract_version": "5.5.1",
+    "opencv_version": "4.11.0",
+    "timestamp": "2025-06-07 01:29:18"
+  },
+  "processing_config": {
+    "math_recognition": {
+      "whitelist_symbols": "αβγθπ∑∫∏√∈∉∩∪∠⊥∞≈≠±×÷≤≥∂∇∮∴∵∝∞∟∥∦∧∨∩∪⊕⊗⊥∠∡∢∣∤∥∦∧∨∩∪⊕⊗",
+      "region_detection": true,
+      "auto_correction": true
+    },
+    "image_processing": {
+      "adaptive_threshold": true,
+      "denoising": true,
+      "dpi": 300
+    },
+    "output_formats": [
+      "markdown",
+      "latex",
+      "pdf"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "1.2.0",
+  "timestamp": "2025-06-06T23:15:30.954867",
+  "input_file": "input/2024_math_nation_newI.pdf",
+  "output_files": {
+    "markdown": "output/2024_math_nation_newI_20250606_231530.md"
+  },
+  "stats": {
+    "start_time": "2025-06-06T23:15:15.991340",
+    "file_type": "pdf",
+    "end_time": "2025-06-06T23:15:30.954862",
+    "status": "error",
+    "error": "unexpected char '\\\\' at 892"
+  },
+  "optimization_features": [
+    "增强的数学公式识别",
+    "改进的中文标点处理",
+    "自适应图像二值化",
+    "智能段落分隔",
+    "YAML前置元数据",
+    "格式化改进"
+  ]
+}

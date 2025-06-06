@@ -1,0 +1,1064 @@
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 日志文件位置: output/logs/20250606/converter_20250606_235722.log
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 当前版本: v1.3.1
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 操作系统: Darwin 24.5.0
+2025-06-06 23:57:22 - MathPaperConverter - INFO - Python版本: 3.10.13 (main, Sep 11 2023, 08:24:56) [Clang 14.0.6 ]
+2025-06-06 23:57:22 - MathPaperConverter - INFO - Tesseract版本: 5.5.1
+2025-06-06 23:57:22 - MathPaperConverter - INFO - OpenCV版本: 4.11.0
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 初始化配置:
+2025-06-06 23:57:22 - MathPaperConverter - INFO - - 输入目录: input
+2025-06-06 23:57:22 - MathPaperConverter - INFO - - 输出目录: output
+2025-06-06 23:57:22 - MathPaperConverter - INFO - - 模板目录: templates
+2025-06-06 23:57:22 - MathPaperConverter - INFO - - 临时目录: temp
+2025-06-06 23:57:22 - MathPaperConverter - INFO - - 日志目录: output/logs
+2025-06-06 23:57:22 - MathPaperConverter - INFO - MathPaperConverter 版本 1.3.1 初始化完成
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 开始批量处理文件
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 在输入目录中找到 1 个文件
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 开始处理文件: 2024_math_nation_newI.pdf
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 开始处理文件：2024_math_nation_newI.pdf
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 开始处理PDF文件: input/2024_math_nation_newI.pdf
+2025-06-06 23:57:22 - MathPaperConverter - INFO - PDF共 7 页
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 处理第 1/7 页
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 共识别出 57 个数学公式区域
+2025-06-06 23:57:22 - MathPaperConverter - INFO - 第 1 页检测到 57 个数学区域
+2025-06-06 23:57:51 - MathPaperConverter - INFO - 第 1 页处理完成
+2025-06-06 23:57:51 - MathPaperConverter - INFO - 处理第 2/7 页
+2025-06-06 23:57:52 - MathPaperConverter - INFO - 共识别出 4 个数学公式区域
+2025-06-06 23:57:52 - MathPaperConverter - INFO - 第 2 页检测到 4 个数学区域
+2025-06-06 23:57:56 - MathPaperConverter - INFO - 第 2 页处理完成
+2025-06-06 23:57:56 - MathPaperConverter - INFO - 处理第 3/7 页
+2025-06-06 23:57:56 - MathPaperConverter - INFO - 共识别出 17 个数学公式区域
+2025-06-06 23:57:56 - MathPaperConverter - INFO - 第 3 页检测到 17 个数学区域
+2025-06-06 23:58:08 - MathPaperConverter - INFO - 第 3 页处理完成
+2025-06-06 23:58:08 - MathPaperConverter - INFO - 处理第 4/7 页
+2025-06-06 23:58:08 - MathPaperConverter - INFO - 共识别出 2 个数学公式区域
+2025-06-06 23:58:08 - MathPaperConverter - INFO - 第 4 页检测到 2 个数学区域
+2025-06-06 23:58:11 - MathPaperConverter - INFO - 第 4 页处理完成
+2025-06-06 23:58:11 - MathPaperConverter - INFO - 处理第 5/7 页
+2025-06-06 23:58:12 - MathPaperConverter - INFO - 共识别出 52 个数学公式区域
+2025-06-06 23:58:12 - MathPaperConverter - INFO - 第 5 页检测到 52 个数学区域
+2025-06-06 23:58:35 - MathPaperConverter - INFO - 第 5 页处理完成
+2025-06-06 23:58:35 - MathPaperConverter - INFO - 处理第 6/7 页
+2025-06-06 23:58:36 - MathPaperConverter - INFO - 共识别出 14 个数学公式区域
+2025-06-06 23:58:36 - MathPaperConverter - INFO - 第 6 页检测到 14 个数学区域
+2025-06-06 23:58:44 - MathPaperConverter - INFO - 第 6 页处理完成
+2025-06-06 23:58:44 - MathPaperConverter - INFO - 处理第 7/7 页
+2025-06-06 23:58:44 - MathPaperConverter - INFO - 共识别出 0 个数学公式区域
+2025-06-06 23:58:44 - MathPaperConverter - INFO - 第 7 页检测到 0 个数学区域
+2025-06-06 23:58:45 - MathPaperConverter - INFO - 第 7 页处理完成
+2025-06-06 23:58:45 - MathPaperConverter - INFO - PDF处理完成，共处理 7 页
+2025-06-06 23:58:45 - MathPaperConverter - INFO - 开始转换为Markdown格式
+2025-06-06 23:58:45 - MathPaperConverter - INFO - Markdown转换完成
+2025-06-06 23:58:45 - MathPaperConverter - INFO - 已生成 Markdown 文件：output/2024_math_nation_newI_20250606_235845.md
+2025-06-06 23:58:45 - MathPaperConverter - INFO - 已生成 LaTeX 文件：output/2024_math_nation_newI_20250606_235845.tex
+2025-06-06 23:58:46 - MathPaperConverter - ERROR - 处理文件 2024_math_nation_newI.pdf 时出错：LaTeX 编译错误：
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Font TU/LatinModernMath(0)/m/n/12="Latin Modern Math/OT" at 12.0pt not loadab
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Font TU/LatinModernMath(1)/m/n/12="Latin Modern Math/OT" at 12.0pt not loadab
+! Package unicode-math Error: No main maths font has been set up yet.
+! Undefined control sequence.
+! Package unicode-math Error: Command `\CJKmath ` in math range is not
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+
+完整输出：
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./temp.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexart.cls
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+TEX)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-a
+rticle.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-macold.
+def))) (/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpage.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+ty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-table.t
+ex)))
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (STSong(0)).
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKsfdefault' (STXihei).
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKttdefault' (STFangsong).
+
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+! Font TU/LatinModernMath(0)/m/n/12="Latin Modern Math/OT" at 12.0pt not loadab
+le: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+Package unicode-math Warning: The first font loaded by unicode-math must be an
+(unicode-math)                OpenType Math font (with script=math). If you
+(unicode-math)                simply want ‘the default’ before loading
+(unicode-math)                supplementary fonts over the top for certain
+(unicode-math)                ranges, use: 
+(unicode-math)                  \setmathfont{latinmodern-math.otf}
+
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+! Font TU/LatinModernMath(1)/m/n/12="Latin Modern Math/OT" at 12.0pt not loadab
+le: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package unicode-math Error: No main maths font has been set up yet.
+(unicode-math)                If you simply want ‘the default’, use: 
+(unicode-math)                  \setmathfont{latinmodern-math.otf}
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.21 \setmathfont{STSong}[range=\CJKmath]
+                                         
+! Undefined control sequence.
+<argument> \CJKmath 
+                    
+l.21 \setmathfont{STSong}[range=\CJKmath]
+                                         
+
+! Package unicode-math Error: Command `\CJKmath ` in math range is not
+(unicode-math)                recognised as a maths symbol. Check file
+(unicode-math)                "unicode-math-table.tex" for allowable
+(unicode-math)                commands.
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.21 \setmathfont{STSong}[range=\CJKmath]
+                                         
+No file temp.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Overfull \hbox (8.54466pt too wide) in paragraph at lines 54--79
+[]\TU/lmr/m/n/12 r r 2024FLERFXERBELESEFRFRRI1H HF AABIL107T19MEHr1505 EREW
+
+Overfull \hbox (24.75394pt too wide) in paragraph at lines 54--79
+\TU/lmr/m/n/12 LERERTSRECHREBRIESZ55BNSEEERSNEEFLHRESIE BATRHESERENTREAE
+
+Overfull \hbox (35.33794pt too wide) in paragraph at lines 54--79
+\TU/lmr/m/n/12 LEFEEIESSMNEEHEREF28HEIESERLXNEENERFSHESER HERANEERLIEEERE-
+
+Overfull \hbox (35.16066pt too wide) in paragraph at lines 54--79
+\TU/lmr/m/n/12 HTTR JHEFBABEBIEEAROSFEEBEEESERENNNEERRASEREB FRAEMEEFLIR-
+
+Overfull \hbox (95.79663pt too wide) in paragraph at lines 54--79
+\TU/lmr/m/n/12 EREXETA 4ERGEREHHEARBNEERIHLR BEEMFEI8PEBAE54rFE404ERNMESHPNMETR
+EF
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 114.
+
+[1]
+Missing character: There is no ≶ (U+2276) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋜ (U+22DC) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ≹ (U+2279) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⊐ (U+2290) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋝ (U+22DD) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋜ (U+22DC) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+Overfull \hbox (17.50195pt too wide) in paragraph at lines 150--178
+[]\TU/lmr/m/n/12 2024FEEFHEERBEELEELSEFRFTiFR1H i ARBIL10TT19MEHH1505 EREW
+
+Overfull \hbox (24.24992pt too wide) in paragraph at lines 150--178
+\TU/lmr/m/n/12 LEERTlBEClEE5IES55BENSEETERENEERELHFRESE B4ATEREESEEENREME
+
+Overfull \hbox (53.25394pt too wide) in paragraph at lines 150--178
+\TU/lmr/m/n/12 2IEFBIEESNNEEHEREF2BBEIEEERENNEEHNERFSHRBEESER BERENEEFLREEE-
+
+Overfull \hbox (39.38464pt too wide) in paragraph at lines 150--178
+\TU/lmr/m/n/12 EXESTH JETEMREENAESFEASFEEEEESERENBENEERBAEEREB FREFEEFLW-
+
+Overfull \hbox (116.59264pt too wide) in paragraph at lines 150--178
+\TU/lmr/m/n/12 EREEXEHTR 4EREREBHARBNEEEIHER EEFEEAREL8PMEBAE54H40HERDIEBELHNNE
+TPRF
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 178.
+
+[2]
+Overfull \hbox (0.19394pt too wide) in paragraph at lines 183--186
+[]\TU/lmr/m/n/12 A3 B4 C6 D8 8CHRENfWEEARfxfxDfx2HHx3MfxmxWFFHFHLF EIERRC
+
+Overfull \hbox (5.04195pt too wide) in paragraph at lines 195--208
+[]\TU/lmr/m/n/12 BEERFENE65HMoENNERTSBNERENERSTFHRENSO Vi 9NTRHERNIL-
+
+Overfull \hbox (276.80196pt too wide) in paragraph at lines 195--208
+\TU/lmr/m/n/12 FURMOATHONCfLeT370D6U0MISFIEEMERERMRIREILMURRIBOOREA BET21HAFES0
+01DALHEREREEAXBAESN1801Biiks
+
+Overfull \hbox (4.95667pt too wide) in paragraph at lines 195--208
+\TU/lmr/m/n/12 BPX205 cPY205 DPY2038 10WRHLFxr1Yx4WC Axm3RSCWHAMES BH0xlHffx
+
+Overfull \hbox (173.31923pt too wide) in paragraph at lines 195--208
+\TU/lmr/m/n/12 CBlcx2i4f2x10 DH1cxO0mf2xfx 11SEHYoRTLURBETIELHSUBEEhM4CF9H140E0
+0CXLARKRIRUNOLHLLAiss
+
+Overfull \hbox (9.73924pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 HEBEAEI3MEG0E543E154 12 ifixxwazfjfszupobm BEAEENINFrFydFfEPATYM
+I-
+
+Overfull \hbox (35.83264pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 NESRECF4B FisisIFAS13AB10JIlCHIELEN 13lyox72501AIYILHRILInGe14aW
+9995Ma
+
+Overfull \hbox (241.83394pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 14FLZBASENRESSRENFEAEFOEASEASRERT1L357ZiE BERSUIRERT2468FAGTIRHI
+EFEEEHITFASENEBRAIESPIEHE
+
+Overfull \hbox (74.32594pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 FEBFEFALHFIAABEAIIAE14BRANIAE04AESEFEIRAT RARENEAERERORYCHRREED-
+
+
+Overfull \hbox (47.56595pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 NIRLIEFOABATFAT2WilEY PYfEEHEAREEIL5MNE3L774BENEHXFHYEHIEREESE
+
+Overfull \hbox (29.40324pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 15i2adBCWfi4BCHXIASUNarbrooBHISinCz2cosBa4bc2ab 1RBs 22ABCWEFA34
+43Re
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 244.
+
+[3]
+Overfull \hbox (114.61264pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 FATySiBLAECT4B BimFRAE13AB10WlCHWELER 13Hye4x7E2501AHIHIBHRH4yIn
+Cx41a98148Wa
+
+Overfull \hbox (259.38994pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 14BZHARENRESSKENLREACEFOEAESIEERTL357Z0E FEARRERE2468FAMTINRELIE
+TARILIETFIASEMECRARAhREAE
+
+Overfull \hbox (2.14595pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 FEHETEEAEMTRADBFEAATE15MPMOAE04ESEFEAFHE FAGREMRAER-
+
+Overfull \hbox (100.42725pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 RKREERDIITREIEFEAEATNT2WiEy PYfEEHEAREEIL5MNE3L774BENEHXFHYEHIER
+EESE
+
+Overfull \hbox (11.27124pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 15i2adBCWfi4BCHXIASUNarbrooBHISinCz2cosBa4bc2ab 1RBs 2ABCHERA33K
+e 
+
+Overfull \hbox (124.68336pt too wide) in paragraph at lines 277--284
+[]\TU/lmr/m/n/12 3 P yz 16BARLAQRP3DSHIC25hUab0LTA a DRCHBLE 2i5PEBIRCTR4BHaABP
+WEHN9RINHTE
+
+Overfull \hbox (74.47807pt too wide) in paragraph at lines 297--309
+[]\TU/lmr/m/n/12 2AD1DC HZEQA CP DEFJEgZMEf9g KAD 18 aazmzniizfublnimwmklf Db0H
+S20RabyRMi
+
+Overfull \hbox (198.98465pt too wide) in paragraph at lines 297--309
+\TU/lmr/m/n/12 FWHigyFReLHIRETY 3Yf002BANBTx2KbHIELE 19mNIERHBOOa0yyenrGgRAETN0
+MEEHTERAMERTaMaijERA
+
+Overfull \hbox (1.47922pt too wide) in paragraph at lines 297--309
+\TU/lmr/m/n/12 tydmTATPTERymAFARAN4ASEBAREBEGMREDadyyeesyy20TT5 551 WBm-
+
+Overfull \hbox (258.00063pt too wide) in paragraph at lines 297--309
+\TU/lmr/m/n/12 pEig1Kij6E851aaa52iTHEE 2Bm230FPBaayGy2213AHET 30IL2y00bm425URAE
+EAEGAF5J2TCHIGyrBysGgpyRiJFTAHFUERy
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 315.
+
+[4]
+Overfull \hbox (89.59392pt too wide) in paragraph at lines 319--329
+[]\TU/lmr/m/n/12 FRBIL10TT19MEHor15073 ERH LEERTSeRECRESBEIESE55BUSHREERENEEREH
+EHIE
+
+Overfull \hbox (76.44992pt too wide) in paragraph at lines 319--329
+\TU/lmr/m/n/12 SEAMEMBEESEFEXHEEE 2EFEEMIESSMERNEREH28HETEEERLAREEHERFSREBSER
+
+Overfull \hbox (15.26195pt too wide) in paragraph at lines 319--329
+\TU/lmr/m/n/12 ERAMEEFEREREERIRATTH JEEBHBEBESAROETEEZEETRRFENNNEERB-
+
+Overfull \hbox (204.06334pt too wide) in paragraph at lines 319--329
+\TU/lmr/m/n/12 NFEREE RANEEFLRREEXIRTH 4BREWREBRARBMEERFHLX WEEAEIE8MEBNE543E40
+oESMESHRNNERSRE 
+Missing character: There is no ≶ (U+2276) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋜ (U+22DC) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ≹ (U+2279) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 370.
+
+[5]
+Missing character: There is no ⊐ (U+2290) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋝ (U+22DD) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋜ (U+22DC) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+Overfull \hbox (89.59392pt too wide) in paragraph at lines 393--404
+[]\TU/lmr/m/n/12 FRBIL10TT19MEHor15073 ERH LEERTSeRECRESBEIESE55BUSHREERENEEREH
+EHIE
+
+Overfull \hbox (68.62595pt too wide) in paragraph at lines 393--404
+\TU/lmr/m/n/12 SEAMEMBEESEFEXHEEE LEFERMESSMEENEREH28HEREEFENNERHERFSHRRFER
+
+Overfull \hbox (15.26195pt too wide) in paragraph at lines 393--404
+\TU/lmr/m/n/12 ERAMEEFEREREERIRATTH JEEBHBEBESAROETEEZEETRRFENNNEERB-
+
+Overfull \hbox (200.55934pt too wide) in paragraph at lines 393--404
+\TU/lmr/m/n/12 NFEREE RANEEFLRREEXIRTH 4BREWREBRARBMEERFHLX WEEAEI8MEBNE543E404
+ERDEGHRNAERERE
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 425.
+
+[6]
+Overfull \hbox (5.90593pt too wide) in paragraph at lines 436--464
+[]\TU/lmr/m/n/12 8fz51 4518B ZLOEEREARESE3MEBNE64r3E184rEEMESHINENTFEHEFE
+
+Overfull \hbox (6.56464pt too wide) in paragraph at lines 436--464
+\TU/lmr/m/n/12 BEERFENE64WoENNERSSEXNENENERISFRENSO ar 0951 1BC L1055 51ACD
+
+Overfull \hbox (3.40195pt too wide) in paragraph at lines 436--464
+\TU/lmr/m/n/12 ifWOj TUfR5SREAREIL5ME3774BENEHICFHREESEREELR LisEsE1 LE1DB7
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 499.
+
+[7]
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 547.
+
+[8] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./temp.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 547.
+
+ )
+(see the transcript file for additional information)
+Output written on temp.pdf (8 pages).
+Transcript written on temp.log.
+
+
+2025-06-06 23:58:46 - MathPaperConverter - INFO - 转换日志已保存到：output/2024_math_nation_newI_20250606_235846_conversion.json
+2025-06-06 23:58:46 - MathPaperConverter - INFO - 当前版本（v1.3.0）主要特性：
+2025-06-06 23:58:46 - MathPaperConverter - INFO - - 集成equ训练数据支持数学公式识别
+2025-06-06 23:58:46 - MathPaperConverter - INFO - - 添加数学符号白名单
+2025-06-06 23:58:46 - MathPaperConverter - INFO - - 智能数学公式区域检测
+2025-06-06 23:58:46 - MathPaperConverter - INFO - - 自适应图像增强处理
+2025-06-06 23:58:46 - MathPaperConverter - INFO - - 数学文本智能校正
+2025-06-06 23:58:46 - MathPaperConverter - INFO - - 改进的日志系统（按时间戳分类）
+2025-06-06 23:58:46 - MathPaperConverter - ERROR - 处理文件 2024_math_nation_newI.pdf 时出错：LaTeX 编译错误：
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Font TU/LatinModernMath(0)/m/n/12="Latin Modern Math/OT" at 12.0pt not loadab
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Package fontspec Error: 
+ When in doubt, ask someone for help!
+! Font TU/LatinModernMath(1)/m/n/12="Latin Modern Math/OT" at 12.0pt not loadab
+! Package unicode-math Error: No main maths font has been set up yet.
+! Undefined control sequence.
+! Package unicode-math Error: Command `\CJKmath ` in math range is not
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+ex-text;!
+
+完整输出：
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./temp.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexart.cls
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexbackend.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def))
+Document Class: ctexart 2022/07/14 v2.5.10 Chinese adapter for class article (C
+TEX)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexhook.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/ctexpatch.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fix-cm.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ts1enc.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/config/ctexopts.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
+y) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-a
+rticle.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-mac.def
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-macold.
+def))) (/usr/local/texlive/2025/texmf-dist/tex/latex/ctex/config/ctex.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpage.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+ty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/unicode-math/unicode-math-table.t
+ex)))
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (STSong(0)).
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKsfdefault' (STXihei).
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKttdefault' (STFangsong).
+
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+! Font TU/LatinModernMath(0)/m/n/12="Latin Modern Math/OT" at 12.0pt not loadab
+le: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+Package unicode-math Warning: The first font loaded by unicode-math must be an
+(unicode-math)                OpenType Math font (with script=math). If you
+(unicode-math)                simply want ‘the default’ before loading
+(unicode-math)                supplementary fonts over the top for certain
+(unicode-math)                ranges, use: 
+(unicode-math)                  \setmathfont{latinmodern-math.otf}
+
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package fontspec Error: 
+(fontspec)                The font "Latin Modern Math" cannot be found; this
+(fontspec)                may be but usually is not a fontspec bug. Either
+(fontspec)                there is a typo in the font name/file, the font is
+(fontspec)                not installed (correctly), or there is a bug in
+(fontspec)                the underlying font loading engine
+(fontspec)                (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+! Font TU/LatinModernMath(1)/m/n/12="Latin Modern Math/OT" at 12.0pt not loadab
+le: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.21 \setmathfont
+                 {STSong}[range=\CJKmath]
+
+! Package unicode-math Error: No main maths font has been set up yet.
+(unicode-math)                If you simply want ‘the default’, use: 
+(unicode-math)                  \setmathfont{latinmodern-math.otf}
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.21 \setmathfont{STSong}[range=\CJKmath]
+                                         
+! Undefined control sequence.
+<argument> \CJKmath 
+                    
+l.21 \setmathfont{STSong}[range=\CJKmath]
+                                         
+
+! Package unicode-math Error: Command `\CJKmath ` in math range is not
+(unicode-math)                recognised as a maths symbol. Check file
+(unicode-math)                "unicode-math-table.tex" for allowable
+(unicode-math)                commands.
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.21 \setmathfont{STSong}[range=\CJKmath]
+                                         
+No file temp.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Overfull \hbox (8.54466pt too wide) in paragraph at lines 54--79
+[]\TU/lmr/m/n/12 r r 2024FLERFXERBELESEFRFRRI1H HF AABIL107T19MEHr1505 EREW
+
+Overfull \hbox (24.75394pt too wide) in paragraph at lines 54--79
+\TU/lmr/m/n/12 LERERTSRECHREBRIESZ55BNSEEERSNEEFLHRESIE BATRHESERENTREAE
+
+Overfull \hbox (35.33794pt too wide) in paragraph at lines 54--79
+\TU/lmr/m/n/12 LEFEEIESSMNEEHEREF28HEIESERLXNEENERFSHESER HERANEERLIEEERE-
+
+Overfull \hbox (35.16066pt too wide) in paragraph at lines 54--79
+\TU/lmr/m/n/12 HTTR JHEFBABEBIEEAROSFEEBEEESERENNNEERRASEREB FRAEMEEFLIR-
+
+Overfull \hbox (95.79663pt too wide) in paragraph at lines 54--79
+\TU/lmr/m/n/12 EREXETA 4ERGEREHHEARBNEERIHLR BEEMFEI8PEBAE54rFE404ERNMESHPNMETR
+EF
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 114.
+
+[1]
+Missing character: There is no ≶ (U+2276) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋜ (U+22DC) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ≹ (U+2279) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⊐ (U+2290) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋝ (U+22DD) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋜ (U+22DC) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+Overfull \hbox (17.50195pt too wide) in paragraph at lines 150--178
+[]\TU/lmr/m/n/12 2024FEEFHEERBEELEELSEFRFTiFR1H i ARBIL10TT19MEHH1505 EREW
+
+Overfull \hbox (24.24992pt too wide) in paragraph at lines 150--178
+\TU/lmr/m/n/12 LEERTlBEClEE5IES55BENSEETERENEERELHFRESE B4ATEREESEEENREME
+
+Overfull \hbox (53.25394pt too wide) in paragraph at lines 150--178
+\TU/lmr/m/n/12 2IEFBIEESNNEEHEREF2BBEIEEERENNEEHNERFSHRBEESER BERENEEFLREEE-
+
+Overfull \hbox (39.38464pt too wide) in paragraph at lines 150--178
+\TU/lmr/m/n/12 EXESTH JETEMREENAESFEASFEEEEESERENBENEERBAEEREB FREFEEFLW-
+
+Overfull \hbox (116.59264pt too wide) in paragraph at lines 150--178
+\TU/lmr/m/n/12 EREEXEHTR 4EREREBHARBNEEEIHER EEFEEAREL8PMEBAE54H40HERDIEBELHNNE
+TPRF
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 178.
+
+[2]
+Overfull \hbox (0.19394pt too wide) in paragraph at lines 183--186
+[]\TU/lmr/m/n/12 A3 B4 C6 D8 8CHRENfWEEARfxfxDfx2HHx3MfxmxWFFHFHLF EIERRC
+
+Overfull \hbox (5.04195pt too wide) in paragraph at lines 195--208
+[]\TU/lmr/m/n/12 BEERFENE65HMoENNERTSBNERENERSTFHRENSO Vi 9NTRHERNIL-
+
+Overfull \hbox (276.80196pt too wide) in paragraph at lines 195--208
+\TU/lmr/m/n/12 FURMOATHONCfLeT370D6U0MISFIEEMERERMRIREILMURRIBOOREA BET21HAFES0
+01DALHEREREEAXBAESN1801Biiks
+
+Overfull \hbox (4.95667pt too wide) in paragraph at lines 195--208
+\TU/lmr/m/n/12 BPX205 cPY205 DPY2038 10WRHLFxr1Yx4WC Axm3RSCWHAMES BH0xlHffx
+
+Overfull \hbox (173.31923pt too wide) in paragraph at lines 195--208
+\TU/lmr/m/n/12 CBlcx2i4f2x10 DH1cxO0mf2xfx 11SEHYoRTLURBETIELHSUBEEhM4CF9H140E0
+0CXLARKRIRUNOLHLLAiss
+
+Overfull \hbox (9.73924pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 HEBEAEI3MEG0E543E154 12 ifixxwazfjfszupobm BEAEENINFrFydFfEPATYM
+I-
+
+Overfull \hbox (35.83264pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 NESRECF4B FisisIFAS13AB10JIlCHIELEN 13lyox72501AIYILHRILInGe14aW
+9995Ma
+
+Overfull \hbox (241.83394pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 14FLZBASENRESSRENFEAEFOEASEASRERT1L357ZiE BERSUIRERT2468FAGTIRHI
+EFEEEHITFASENEBRAIESPIEHE
+
+Overfull \hbox (74.32594pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 FEBFEFALHFIAABEAIIAE14BRANIAE04AESEFEIRAT RARENEAERERORYCHRREED-
+
+
+Overfull \hbox (47.56595pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 NIRLIEFOABATFAT2WilEY PYfEEHEAREEIL5MNE3L774BENEHXFHYEHIEREESE
+
+Overfull \hbox (29.40324pt too wide) in paragraph at lines 212--235
+\TU/lmr/m/n/12 15i2adBCWfi4BCHXIASUNarbrooBHISinCz2cosBa4bc2ab 1RBs 22ABCWEFA34
+43Re
+
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 244.
+
+[3]
+Overfull \hbox (114.61264pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 FATySiBLAECT4B BimFRAE13AB10WlCHWELER 13Hye4x7E2501AHIHIBHRH4yIn
+Cx41a98148Wa
+
+Overfull \hbox (259.38994pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 14BZHARENRESSKENLREACEFOEAESIEERTL357Z0E FEARRERE2468FAMTINRELIE
+TARILIETFIASEMECRARAhREAE
+
+Overfull \hbox (2.14595pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 FEHETEEAEMTRADBFEAATE15MPMOAE04ESEFEAFHE FAGREMRAER-
+
+Overfull \hbox (100.42725pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 RKREERDIITREIEFEAEATNT2WiEy PYfEEHEAREEIL5MNE3L774BENEHXFHYEHIER
+EESE
+
+Overfull \hbox (11.27124pt too wide) in paragraph at lines 263--276
+\TU/lmr/m/n/12 15i2adBCWfi4BCHXIASUNarbrooBHISinCz2cosBa4bc2ab 1RBs 2ABCHERA33K
+e 
+
+Overfull \hbox (124.68336pt too wide) in paragraph at lines 277--284
+[]\TU/lmr/m/n/12 3 P yz 16BARLAQRP3DSHIC25hUab0LTA a DRCHBLE 2i5PEBIRCTR4BHaABP
+WEHN9RINHTE
+
+Overfull \hbox (74.47807pt too wide) in paragraph at lines 297--309
+[]\TU/lmr/m/n/12 2AD1DC HZEQA CP DEFJEgZMEf9g KAD 18 aazmzniizfublnimwmklf Db0H
+S20RabyRMi
+
+Overfull \hbox (198.98465pt too wide) in paragraph at lines 297--309
+\TU/lmr/m/n/12 FWHigyFReLHIRETY 3Yf002BANBTx2KbHIELE 19mNIERHBOOa0yyenrGgRAETN0
+MEEHTERAMERTaMaijERA
+
+Overfull \hbox (1.47922pt too wide) in paragraph at lines 297--309
+\TU/lmr/m/n/12 tydmTATPTERymAFARAN4ASEBAREBEGMREDadyyeesyy20TT5 551 WBm-
+
+Overfull \hbox (258.00063pt too wide) in paragraph at lines 297--309
+\TU/lmr/m/n/12 pEig1Kij6E851aaa52iTHEE 2Bm230FPBaayGy2213AHET 30IL2y00bm425URAE
+EAEGAF5J2TCHIGyrBysGgpyRiJFTAHFUERy
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 315.
+
+[4]
+Overfull \hbox (89.59392pt too wide) in paragraph at lines 319--329
+[]\TU/lmr/m/n/12 FRBIL10TT19MEHor15073 ERH LEERTSeRECRESBEIESE55BUSHREERENEEREH
+EHIE
+
+Overfull \hbox (76.44992pt too wide) in paragraph at lines 319--329
+\TU/lmr/m/n/12 SEAMEMBEESEFEXHEEE 2EFEEMIESSMERNEREH28HETEEERLAREEHERFSREBSER
+
+Overfull \hbox (15.26195pt too wide) in paragraph at lines 319--329
+\TU/lmr/m/n/12 ERAMEEFEREREERIRATTH JEEBHBEBESAROETEEZEETRRFENNNEERB-
+
+Overfull \hbox (204.06334pt too wide) in paragraph at lines 319--329
+\TU/lmr/m/n/12 NFEREE RANEEFLRREEXIRTH 4BREWREBRARBMEERFHLX WEEAEIE8MEBNE543E40
+oESMESHRNNERSRE 
+Missing character: There is no ≶ (U+2276) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋜ (U+22DC) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ≹ (U+2279) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 370.
+
+[5]
+Missing character: There is no ⊐ (U+2290) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ∣ (U+2223) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋝ (U+22DD) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no ⋜ (U+22DC) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+Overfull \hbox (89.59392pt too wide) in paragraph at lines 393--404
+[]\TU/lmr/m/n/12 FRBIL10TT19MEHor15073 ERH LEERTSeRECRESBEIESE55BUSHREERENEEREH
+EHIE
+
+Overfull \hbox (68.62595pt too wide) in paragraph at lines 393--404
+\TU/lmr/m/n/12 SEAMEMBEESEFEXHEEE LEFERMESSMEENEREH28HEREEFENNERHERFSHRRFER
+
+Overfull \hbox (15.26195pt too wide) in paragraph at lines 393--404
+\TU/lmr/m/n/12 ERAMEEFEREREERIRATTH JEEBHBEBESAROETEEZEETRRFENNNEERB-
+
+Overfull \hbox (200.55934pt too wide) in paragraph at lines 393--404
+\TU/lmr/m/n/12 NFEREE RANEEFLRREEXIRTH 4BREWREBRARBMEERFHLX WEEAEI8MEBNE543E404
+ERDEGHRNAERERE
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 425.
+
+[6]
+Overfull \hbox (5.90593pt too wide) in paragraph at lines 436--464
+[]\TU/lmr/m/n/12 8fz51 4518B ZLOEEREARESE3MEBNE64r3E184rEEMESHINENTFEHEFE
+
+Overfull \hbox (6.56464pt too wide) in paragraph at lines 436--464
+\TU/lmr/m/n/12 BEERFENE64WoENNERSSEXNENENERISFRENSO ar 0951 1BC L1055 51ACD
+
+Overfull \hbox (3.40195pt too wide) in paragraph at lines 436--464
+\TU/lmr/m/n/12 ifWOj TUfR5SREAREIL5ME3774BENEHICFHREESEREELR LisEsE1 LE1DB7
+
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 499.
+
+[7]
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 547.
+
+[8] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./temp.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 547.
+
+ )
+(see the transcript file for additional information)
+Output written on temp.pdf (8 pages).
+Transcript written on temp.log.
+
+

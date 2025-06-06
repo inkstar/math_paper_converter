@@ -1,0 +1,828 @@
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 日志文件位置: output/logs/20250607/converter_20250607_001002.log
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 当前版本: v1.3.1
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 操作系统: Darwin 24.5.0
+2025-06-07 00:10:02 - MathPaperConverter - INFO - Python版本: 3.10.13 (main, Sep 11 2023, 08:24:56) [Clang 14.0.6 ]
+2025-06-07 00:10:02 - MathPaperConverter - INFO - Tesseract版本: 5.5.1
+2025-06-07 00:10:02 - MathPaperConverter - INFO - OpenCV版本: 4.11.0
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 初始化配置:
+2025-06-07 00:10:02 - MathPaperConverter - INFO - - 输入目录: input
+2025-06-07 00:10:02 - MathPaperConverter - INFO - - 输出目录: output
+2025-06-07 00:10:02 - MathPaperConverter - INFO - - 模板目录: templates
+2025-06-07 00:10:02 - MathPaperConverter - INFO - - 临时目录: temp
+2025-06-07 00:10:02 - MathPaperConverter - INFO - - 日志目录: output/logs
+2025-06-07 00:10:02 - MathPaperConverter - INFO - MathPaperConverter 版本 1.3.1 初始化完成
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 开始批量处理文件
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 在输入目录中找到 1 个文件
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 开始处理文件: 2024_math_nation_newI.pdf
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 开始处理文件：2024_math_nation_newI.pdf
+2025-06-07 00:10:02 - MathPaperConverter - INFO - 开始处理PDF文件: input/2024_math_nation_newI.pdf
+2025-06-07 00:10:03 - MathPaperConverter - INFO - PDF共 7 页
+2025-06-07 00:10:03 - MathPaperConverter - INFO - 处理第 1/7 页
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 开始图像增强处理
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 图像尺寸: (2339, 1654, 3)
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 已将彩色图像转换为灰度图
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 已完成图像降噪
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 已完成对比度增强
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 已完成自适应二值化
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 图像增强处理完成
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 第 1 页图像增强完成
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 开始检测数学公式区域
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 已转换为灰度图像
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 已完成二值化处理
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 检测到 156 个潜在区域
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 1: 位置(832,2267), 大小(88x45), 纵横比2.72
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 2: 位置(740,2267), 大小(91x46), 纵横比2.73
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 4: 位置(446,2087), 大小(33x35), 纵横比0.87
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 10: 位置(144,2059), 大小(39x38), 纵横比1.06
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 13: 位置(740,2053), 大小(71x45), 纵横比2.04
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 15: 位置(428,2049), 大小(29x54), 纵横比0.26
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 16: 位置(465,2038), 大小(36x34), 纵横比1.14
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 17: 位置(605,2031), 大小(114x41), 纵横比4.48
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 18: 位置(527,2030), 大小(67x42), 纵横比2.14
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 21: 位置(145,1950), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 22: 位置(1161,1949), 大小(43x39), 纵横比1.21
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 23: 位置(484,1949), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 24: 位置(821,1948), 大小(43x40), 纵横比1.15
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 25: 位置(1206,1939), 大小(90x56), 纵横比1.94
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 26: 位置(867,1939), 大小(90x57), 纵横比1.89
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 27: 位置(529,1939), 大小(88x56), 纵横比1.89
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 28: 位置(193,1939), 大小(89x56), 纵横比1.92
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 31: 位置(145,1863), 大小(38x39), 纵横比0.95
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 37: 位置(145,1777), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 38: 位置(1161,1776), 大小(43x39), 纵横比1.21
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 39: 位置(484,1776), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 40: 位置(821,1775), 大小(43x40), 纵横比1.15
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 41: 位置(1207,1774), 大小(56x42), 纵横比1.64
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 42: 位置(211,1773), 大小(56x42), 纵横比1.64
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 43: 位置(866,1761), 大小(47x73), 纵横比0.51
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 44: 位置(551,1758), 大小(49x82), 纵横比0.47
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 47: 位置(143,1688), 大小(40x40), 纵横比1.00
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 48: 位置(691,1685), 大小(122x45), 纵横比4.08
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 49: 位置(826,1684), 大小(51x49), 纵横比1.07
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 50: 位置(634,1684), 大小(48x43), 纵横比1.22
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 54: 位置(145,1614), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 55: 位置(484,1613), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 56: 位置(1161,1612), 大小(65x40), 纵横比2.25
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 57: 位置(821,1612), 大小(61x40), 纵横比2.05
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 58: 位置(210,1612), 大小(33x42), 纵横比0.59
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 61: 位置(144,1537), 大小(39x40), 纵横比0.95
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 62: 位置(184,1534), 大小(63x43), 纵横比1.87
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 63: 位置(815,1533), 大小(92x45), 纵横比2.88
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 64: 位置(642,1529), 大小(168x51), 纵横比4.77
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 65: 位置(588,1529), 大小(62x49), 纵横比1.45
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 67: 位置(145,1463), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 68: 位置(1161,1462), 大小(43x39), 纵横比1.21
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 69: 位置(484,1462), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 70: 位置(821,1461), 大小(43x40), 纵横比1.15
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 73: 位置(1209,1459), 大小(62x43), 纵横比1.83
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 75: 位置(552,1459), 大小(64x43), 纵横比1.91
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 80: 位置(145,1385), 大小(31x40), 纵横比0.55
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 81: 位置(398,1382), 大小(60x45), 纵横比1.60
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 82: 位置(186,1382), 大小(38x45), 纵横比0.72
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 83: 位置(311,1381), 大小(78x43), 纵横比2.52
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 84: 位置(213,1369), 大小(80x81), 纵横比0.98
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 85: 位置(145,1300), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 86: 位置(1161,1299), 大小(43x39), 纵横比1.21
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 87: 位置(484,1299), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 88: 位置(868,1298), 大小(25x40), 纵横比0.25
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 89: 位置(821,1298), 大小(43x40), 纵横比1.15
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 91: 位置(1208,1296), 大小(26x44), 纵横比0.25
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 92: 位置(938,1295), 大小(56x44), 纵横比1.50
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 93: 位置(894,1295), 大小(37x40), 纵横比0.85
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 94: 位置(223,1295), 大小(58x44), 纵横比1.58
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 95: 位置(1243,1294), 大小(96x46), 纵横比2.92
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 96: 位置(533,1292), 大小(78x49), 纵横比2.00
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 100: 位置(149,1228), 大小(34x39), 纵横比0.74
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 101: 位置(184,1224), 大小(129x45), 纵横比4.36
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 103: 位置(858,1211), 大小(122x58), 纵横比2.68
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 104: 位置(469,1210), 大小(35x35), 纵横比1.00
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 106: 位置(304,1205), 大小(36x40), 纵横比0.80
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 107: 位置(714,1203), 大小(120x46), 纵横比3.85
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 108: 位置(663,1203), 大小(40x42), 纵横比0.91
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 109: 位置(421,1203), 大小(49x42), 纵横比1.32
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 110: 位置(532,1198), 大小(84x57), 纵横比1.73
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 112: 位置(360,1197), 大小(46x59), 纵横比0.67
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 119: 位置(717,1070), 大小(34x42), 纵横比0.64
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 120: 位置(920,1066), 大小(58x50), 纵横比1.27
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 121: 位置(818,1066), 大小(101x50), 纵横比2.70
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 122: 位置(753,1066), 大小(60x50), 纵横比1.33
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 123: 位置(499,1066), 大小(95x50), 纵横比2.50
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 124: 位置(212,1066), 大小(129x50), 纵横比3.63
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 125: 位置(1419,1065), 大小(81x51), 纵横比1.97
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 127: 位置(599,1065), 大小(118x51), 纵横比3.16
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 128: 位置(347,1065), 大小(151x51), 纵横比4.23
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 132: 位置(1465,860), 大小(49x51), 纵横比0.94
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 136: 位置(145,795), 大小(63x50), 纵横比1.43
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 143: 位置(732,600), 大小(131x51), 纵横比3.58
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 144: 位置(567,600), 大小(164x51), 纵横比4.65
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 146: 位置(148,600), 大小(150x50), 纵横比4.33
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 147: 位置(144,535), 大小(162x51), 纵横比4.58
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 149: 位置(399,470), 大小(133x50), 纵横比3.77
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 151: 位置(777,389), 大小(105x61), 纵横比2.07
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 154: 位置(258,225), 大小(48x47), 纵横比1.04
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 155: 位置(316,217), 大小(149x61), 纵横比3.15
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 区域 156: 位置(145,217), 大小(104x61), 纵横比2.05
+2025-06-07 00:10:03 - MathPaperConverter - INFO - 共识别出 3 个数学公式区域
+2025-06-07 00:10:03 - MathPaperConverter - INFO - 第 1 页检测到 3 个数学区域
+2025-06-07 00:10:03 - MathPaperConverter - DEBUG - 处理第 1 页的第 1 个数学区域
+2025-06-07 00:10:06 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:06 - MathPaperConverter - DEBUG - 替换模式 'in' -> '∈'
+2025-06-07 00:10:06 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:06 - MathPaperConverter - DEBUG - 处理第 1 页的第 2 个数学区域
+2025-06-07 00:10:06 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:06 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:06 - MathPaperConverter - DEBUG - 处理第 1 页的第 3 个数学区域
+2025-06-07 00:10:07 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:07 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:08 - MathPaperConverter - INFO - 第 1 页处理完成
+2025-06-07 00:10:08 - MathPaperConverter - INFO - 处理第 2/7 页
+2025-06-07 00:10:08 - MathPaperConverter - DEBUG - 开始图像增强处理
+2025-06-07 00:10:08 - MathPaperConverter - DEBUG - 图像尺寸: (2339, 1654, 3)
+2025-06-07 00:10:08 - MathPaperConverter - DEBUG - 已将彩色图像转换为灰度图
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 已完成图像降噪
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 已完成对比度增强
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 已完成自适应二值化
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 图像增强处理完成
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 第 2 页图像增强完成
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 开始检测数学公式区域
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 已转换为灰度图像
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 已完成二值化处理
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 检测到 152 个潜在区域
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 1: 位置(832,2267), 大小(88x45), 纵横比2.72
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 2: 位置(740,2267), 大小(91x46), 纵横比2.73
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 6: 位置(255,1788), 大小(32x42), 纵横比0.55
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 7: 位置(1099,1785), 大小(38x45), 纵横比0.72
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 9: 位置(147,1785), 大小(100x45), 纵横比3.20
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 15: 位置(822,1638), 大小(44x39), 纵横比1.26
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 16: 位置(144,1637), 大小(43x40), 纵横比1.15
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 18: 位置(312,1633), 大小(77x45), 纵横比2.28
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 19: 位置(192,1633), 大小(129x45), 纵横比4.36
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 20: 位置(1178,1632), 大小(143x49), 纵横比4.24
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 21: 位置(1104,1632), 大小(63x45), 纵横比1.72
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 22: 位置(564,1632), 大小(86x45), 纵横比2.64
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 23: 位置(414,1631), 大小(138x50), 纵横比3.93
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 25: 位置(145,1552), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 26: 位置(822,1551), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 29: 位置(1081,1542), 大小(168x55), 纵横比4.23
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 30: 位置(1234,1540), 大小(43x58), 纵横比0.61
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 33: 位置(149,1464), 大小(48x39), 纵横比1.47
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 34: 位置(607,1460), 大小(38x45), 纵横比0.72
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 36: 位置(822,1378), 大小(44x39), 纵横比1.26
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 37: 位置(254,1378), 大小(34x35), 纵横比0.93
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 38: 位置(144,1377), 大小(43x40), 纵横比1.15
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 40: 位置(871,1372), 大小(69x44), 纵横比2.04
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 41: 位置(279,1372), 大小(119x44), 纵横比4.12
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 42: 位置(192,1372), 大小(70x46), 纵横比1.92
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 44: 位置(145,1283), 大小(37x38), 纵横比0.94
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 45: 位置(822,1282), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 47: 位置(289,1277), 大小(118x44), 纵横比4.08
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 48: 位置(193,1277), 大小(104x44), 纵横比3.50
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 51: 位置(151,1199), 大小(71x45), 纵横比2.04
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 55: 位置(1141,1113), 大小(68x45), 纵横比1.92
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 56: 位置(762,1113), 大小(42x45), 纵横比0.88
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 57: 位置(406,1113), 大小(68x45), 纵横比1.92
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 62: 位置(694,1106), 大小(60x59), 纵横比1.03
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 63: 位置(437,1039), 大小(52x35), 纵横比2.13
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 64: 位置(494,1030), 大小(115x44), 纵横比3.96
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 66: 位置(1383,1027), 大小(131x45), 纵横比4.44
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 68: 位置(338,1027), 大小(118x46), 纵横比3.77
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 73: 位置(144,957), 大小(32x34), 纵横比0.86
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 75: 位置(1206,951), 大小(101x45), 纵横比3.24
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 76: 位置(1122,951), 大小(99x45), 纵横比3.16
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 79: 位置(547,951), 大小(99x45), 纵横比3.16
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 81: 位置(146,884), 大小(57x51), 纵横比1.19
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 82: 位置(491,824), 大小(35x42), 纵横比0.68
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 86: 位置(525,819), 大小(62x51), 纵横比1.35
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 88: 位置(144,819), 大小(161x50), 纵横比4.70
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 89: 位置(860,759), 大小(47x42), 纵横比1.23
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 90: 位置(707,759), 大小(35x42), 纵横比0.68
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 91: 位置(167,759), 大小(41x42), 纵横比0.95
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 92: 位置(457,758), 大小(34x44), 纵横比0.58
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 94: 位置(906,754), 大小(59x51), 纵横比1.26
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 95: 位置(805,754), 大小(51x50), 纵横比1.03
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 96: 位置(741,754), 大小(61x51), 纵横比1.32
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 97: 位置(590,754), 大小(118x51), 纵横比3.16
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 98: 位置(492,754), 大小(95x50), 纵横比2.50
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 99: 位置(342,754), 大小(116x51), 纵横比3.10
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 100: 位置(209,754), 大小(128x50), 纵横比3.60
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 104: 位置(822,674), 大小(44x39), 纵横比1.26
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 105: 位置(144,673), 大小(43x40), 纵横比1.15
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 110: 位置(145,588), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 111: 位置(822,587), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 120: 位置(1238,437), 大小(51x35), 纵横比2.07
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 121: 位置(145,436), 大小(38x38), 纵横比1.00
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 125: 位置(908,430), 大小(62x46), 纵横比1.62
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 126: 位置(832,430), 大小(64x45), 纵横比1.76
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 127: 位置(777,430), 大小(55x45), 纵横比1.40
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 128: 位置(603,430), 大小(161x49), 纵横比4.86
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 129: 位置(145,361), 大小(58x38), 纵横比2.11
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 130: 位置(1161,360), 大小(65x39), 纵横比2.37
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 131: 位置(484,360), 大小(65x39), 纵横比2.37
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 132: 位置(821,359), 大小(66x40), 纵横比2.30
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 133: 位置(184,359), 大小(27x37), 纵横比0.41
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 137: 位置(145,262), 大小(38x39), 纵横比0.95
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 140: 位置(799,236), 大小(261x89), 纵横比3.49
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 141: 位置(657,236), 大小(131x85), 纵横比1.71
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 142: 位置(145,155), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 143: 位置(1161,154), 大小(43x39), 纵横比1.21
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 144: 位置(484,154), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 145: 位置(821,153), 大小(43x40), 纵横比1.15
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 146: 位置(192,152), 大小(25x42), 纵横比0.23
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 147: 位置(899,149), 大小(59x49), 纵横比1.34
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 148: 位置(866,149), 大小(27x49), 纵横比0.24
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 149: 位置(561,149), 大小(64x49), 纵横比1.52
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 150: 位置(528,149), 大小(27x49), 纵横比0.24
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 151: 位置(228,149), 大小(73x49), 纵横比1.83
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 区域 152: 位置(1206,148), 大小(110x50), 纵横比3.00
+2025-06-07 00:10:09 - MathPaperConverter - INFO - 共识别出 3 个数学公式区域
+2025-06-07 00:10:09 - MathPaperConverter - INFO - 第 2 页检测到 3 个数学区域
+2025-06-07 00:10:09 - MathPaperConverter - DEBUG - 处理第 2 页的第 1 个数学区域
+2025-06-07 00:10:11 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:11 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:11 - MathPaperConverter - DEBUG - 处理第 2 页的第 2 个数学区域
+2025-06-07 00:10:12 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:12 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:12 - MathPaperConverter - DEBUG - 处理第 2 页的第 3 个数学区域
+2025-06-07 00:10:12 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:12 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:13 - MathPaperConverter - INFO - 第 2 页处理完成
+2025-06-07 00:10:13 - MathPaperConverter - INFO - 处理第 3/7 页
+2025-06-07 00:10:13 - MathPaperConverter - DEBUG - 开始图像增强处理
+2025-06-07 00:10:13 - MathPaperConverter - DEBUG - 图像尺寸: (2339, 1654, 3)
+2025-06-07 00:10:13 - MathPaperConverter - DEBUG - 已将彩色图像转换为灰度图
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 已完成图像降噪
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 已完成对比度增强
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 已完成自适应二值化
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 图像增强处理完成
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 第 3 页图像增强完成
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 开始检测数学公式区域
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 已转换为灰度图像
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 已完成二值化处理
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 检测到 147 个潜在区域
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 1: 位置(832,2267), 大小(88x45), 纵横比2.72
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 2: 位置(740,2267), 大小(91x46), 纵横比2.73
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 4: 位置(149,1886), 大小(48x39), 纵横比1.47
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 5: 位置(1052,1884), 大小(62x44), 纵横比1.75
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 6: 位置(966,1883), 大小(60x43), 纵横比1.74
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 7: 位置(839,1883), 大小(139x44), 纵横比4.96
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 10: 位置(198,1882), 大小(82x45), 纵横比2.48
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 11: 位置(1102,1874), 大小(199x57), 纵横比4.84
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 12: 位置(160,1809), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 15: 位置(555,1806), 大小(88x45), 纵横比2.72
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 16: 位置(485,1806), 大小(62x45), 纵横比1.68
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 18: 位置(160,1745), 大小(59x39), 纵横比2.05
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 21: 位置(149,1648), 大小(48x39), 纵横比1.47
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 22: 位置(775,1647), 大小(71x44), 纵横比2.12
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 23: 位置(834,1646), 大小(106x45), 纵横比3.44
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 24: 位置(942,1644), 大小(100x45), 纵横比3.20
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 25: 位置(635,1633), 大小(125x82), 纵横比1.69
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 29: 位置(160,1539), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 30: 位置(581,1535), 大小(75x45), 纵横比2.20
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 32: 位置(160,1464), 大小(59x39), 纵横比2.05
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 33: 位置(218,1460), 大小(80x45), 纵横比2.40
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 34: 位置(1229,1398), 大小(57x34), 纵横比2.64
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 35: 位置(1132,1397), 大小(35x35), 纵横比1.00
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 36: 位置(774,1396), 大小(40x31), 纵横比1.82
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 37: 位置(431,1388), 大小(46x39), 纵横比1.37
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 38: 位置(149,1388), 大小(48x39), 纵横比1.47
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 39: 位置(730,1387), 大小(41x39), 纵横比1.11
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 41: 位置(1151,1384), 大小(87x48), 纵横比2.39
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 42: 位置(820,1384), 大小(140x49), 纵横比4.14
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 45: 位置(1289,1379), 大小(119x57), 纵横比2.68
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 46: 位置(949,1379), 大小(176x57), 纵横比4.22
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 47: 位置(646,1311), 大小(51x43), 纵横比1.35
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 48: 位置(462,1311), 大小(34x43), 纵横比0.61
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 49: 位置(147,1307), 大小(61x49), 纵横比1.41
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 51: 位置(696,1306), 大小(59x51), 纵横比1.26
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 52: 位置(595,1306), 大小(51x50), 纵横比1.03
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 53: 位置(497,1306), 大小(94x50), 纵横比2.47
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 54: 位置(346,1306), 大小(116x51), 纵横比3.10
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 55: 位置(211,1306), 大小(128x51), 纵横比3.48
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 61: 位置(155,1233), 大小(63x45), 纵横比1.72
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 63: 位置(857,1169), 大小(49x44), 纵横比1.21
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 68: 位置(166,1168), 大小(53x45), 纵横比1.32
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 70: 位置(518,1108), 大小(41x37), 纵横比1.24
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 71: 位置(473,1108), 大小(42x38), 纵横比1.22
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 72: 位置(429,1107), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 79: 位置(1366,1042), 大小(41x38), 纵横比1.17
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 80: 位置(1322,1042), 大小(40x39), 纵横比1.05
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 81: 位置(149,1042), 大小(48x39), 纵横比1.47
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 82: 位置(1281,1041), 大小(37x38), 纵横比0.94
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 83: 位置(199,1039), 大小(40x44), 纵横比0.83
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 84: 位置(1412,1038), 大小(102x45), 纵横比3.28
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 86: 位置(776,1038), 大小(123x46), 纵横比3.96
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 90: 位置(340,970), 大小(32x35), 纵横比0.80
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 91: 位置(149,965), 大小(48x40), 纵横比1.40
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 92: 位置(1125,962), 大小(95x45), 纵横比3.00
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 94: 位置(201,962), 大小(123x50), 纵横比3.43
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 100: 位置(147,875), 大小(71x45), 纵横比2.04
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 101: 位置(498,874), 大小(60x42), 纵横比1.82
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 102: 位置(365,873), 大小(123x50), 纵横比3.43
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 103: 位置(237,873), 大小(117x51), 纵横比3.13
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 104: 位置(356,821), 大小(33x33), 纵横比1.00
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 105: 位置(417,813), 大小(32x40), 纵横比0.60
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 111: 位置(1473,793), 大小(37x39), 纵横比0.89
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 112: 位置(1423,793), 大小(47x39), 纵横比1.42
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 114: 位置(149,792), 大小(48x40), 纵横比1.40
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 115: 位置(200,788), 大小(143x46), 纵横比4.73
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 117: 位置(934,787), 大小(58x51), 纵横比1.23
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 119: 位置(420,779), 大小(31x34), 纵横比0.79
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 120: 位置(356,779), 大小(34x33), 纵横比1.08
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 123: 位置(867,715), 大小(47x43), 纵横比1.17
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 124: 位置(713,715), 大小(34x43), 纵横比0.61
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 125: 位置(461,714), 大小(34x44), 纵横比0.58
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 126: 位置(144,713), 大小(64x46), 纵横比1.69
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 127: 位置(914,711), 大小(58x50), 纵横比1.27
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 128: 位置(813,711), 大小(51x51), 纵横比1.00
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 129: 位置(747,711), 大小(61x50), 纵横比1.37
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 130: 位置(496,711), 大小(95x50), 纵横比2.50
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 131: 位置(596,710), 大小(117x52), 纵横比3.03
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 132: 位置(345,710), 大小(118x52), 纵横比3.06
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 133: 位置(211,710), 大小(129x51), 纵横比3.52
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 134: 位置(822,609), 大小(44x39), 纵横比1.26
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 136: 位置(144,605), 大小(135x44), 纵横比4.79
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 138: 位置(1186,580), 大小(163x94), 纵横比1.93
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 139: 位置(191,506), 大小(58x33), 纵横比2.92
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 140: 位置(145,501), 大小(44x38), 纵横比1.33
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 141: 位置(822,500), 大小(42x39), 纵横比1.16
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 142: 位置(236,499), 大小(48x40), 纵横比1.40
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 144: 位置(295,339), 大小(121x41), 纵横比4.81
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 146: 位置(277,241), 大小(126x50), 纵横比3.53
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 区域 147: 位置(144,121), 大小(332x362), 纵横比0.91
+2025-06-07 00:10:14 - MathPaperConverter - INFO - 共识别出 2 个数学公式区域
+2025-06-07 00:10:14 - MathPaperConverter - INFO - 第 3 页检测到 2 个数学区域
+2025-06-07 00:10:14 - MathPaperConverter - DEBUG - 处理第 3 页的第 1 个数学区域
+2025-06-07 00:10:18 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:18 - MathPaperConverter - DEBUG - 替换模式 'in' -> '∈'
+2025-06-07 00:10:18 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:18 - MathPaperConverter - DEBUG - 处理第 3 页的第 2 个数学区域
+2025-06-07 00:10:18 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:18 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:20 - MathPaperConverter - INFO - 第 3 页处理完成
+2025-06-07 00:10:20 - MathPaperConverter - INFO - 处理第 4/7 页
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 开始图像增强处理
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 图像尺寸: (2339, 1654, 3)
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 已将彩色图像转换为灰度图
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 已完成图像降噪
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 已完成对比度增强
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 已完成自适应二值化
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 图像增强处理完成
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 第 4 页图像增强完成
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 开始检测数学公式区域
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 已转换为灰度图像
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 已完成二值化处理
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 检测到 77 个潜在区域
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 1: 位置(832,2267), 大小(88x45), 纵横比2.72
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 2: 位置(740,2267), 大小(91x46), 纵横比2.73
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 5: 位置(309,1614), 大小(46x51), 纵横比0.84
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 6: 位置(215,1614), 大小(84x45), 纵横比2.56
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 7: 位置(151,1613), 大小(46x50), 纵横比0.87
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 8: 位置(350,1593), 大小(63x87), 纵横比0.64
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 9: 位置(160,1530), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 10: 位置(409,1526), 大小(67x46), 纵横比1.81
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 15: 位置(160,1444), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 16: 位置(388,1441), 大小(84x44), 纵横比2.67
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 19: 位置(160,1358), 大小(59x39), 纵横比2.05
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 24: 位置(148,1278), 大小(81x45), 纵横比2.44
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 26: 位置(1462,1203), 大小(52x44), 纵横比1.33
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 31: 位置(149,1120), 大小(48x39), 纵横比1.47
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 34: 位置(266,1115), 大小(139x45), 纵横比4.76
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 35: 位置(200,1115), 大小(70x45), 纵横比2.00
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 38: 位置(160,1032), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 41: 位置(223,1027), 大小(135x50), 纵横比3.83
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 42: 位置(160,956), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 44: 位置(221,953), 大小(81x45), 纵横比2.44
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 45: 位置(160,881), 大小(59x39), 纵横比2.05
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 47: 位置(223,877), 大小(125x45), 纵横比4.20
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 49: 位置(151,795), 大小(48x39), 纵横比1.47
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 50: 位置(684,791), 大小(37x45), 纵横比0.68
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 53: 位置(418,777), 大小(252x81), 纵横比3.80
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 55: 位置(160,673), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 56: 位置(425,671), 大小(39x43), 纵横比0.83
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 57: 位置(947,670), 大小(113x45), 纵横比3.72
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 61: 位置(160,576), 大小(59x39), 纵横比2.05
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 62: 位置(589,572), 大小(142x45), 纵横比4.88
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 63: 位置(510,572), 大小(85x44), 纵横比2.71
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 64: 位置(415,572), 大小(84x45), 纵横比2.56
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 75: 位置(314,305), 大小(88x87), 纵横比1.01
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 区域 77: 位置(148,143), 大小(331x408), 纵横比0.80
+2025-06-07 00:10:20 - MathPaperConverter - INFO - 共识别出 5 个数学公式区域
+2025-06-07 00:10:20 - MathPaperConverter - INFO - 第 4 页检测到 5 个数学区域
+2025-06-07 00:10:20 - MathPaperConverter - DEBUG - 处理第 4 页的第 1 个数学区域
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 处理第 4 页的第 2 个数学区域
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 处理第 4 页的第 3 个数学区域
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:22 - MathPaperConverter - DEBUG - 处理第 4 页的第 4 个数学区域
+2025-06-07 00:10:23 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:23 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:23 - MathPaperConverter - DEBUG - 处理第 4 页的第 5 个数学区域
+2025-06-07 00:10:24 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:24 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:25 - MathPaperConverter - INFO - 第 4 页处理完成
+2025-06-07 00:10:25 - MathPaperConverter - INFO - 处理第 5/7 页
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 开始图像增强处理
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 图像尺寸: (2339, 1654, 3)
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 已将彩色图像转换为灰度图
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 已完成图像降噪
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 已完成对比度增强
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 已完成自适应二值化
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 图像增强处理完成
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 第 5 页图像增强完成
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 开始检测数学公式区域
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 已转换为灰度图像
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 已完成二值化处理
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 检测到 126 个潜在区域
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 1: 位置(832,2267), 大小(88x45), 纵横比2.72
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 2: 位置(740,2267), 大小(91x46), 纵横比2.73
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 4: 位置(219,2043), 大小(78x45), 纵横比2.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 6: 位置(158,2043), 大小(28x45), 纵横比0.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 11: 位置(270,1978), 大小(45x45), 纵横比1.00
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 13: 位置(158,1978), 大小(47x45), 纵横比1.08
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 15: 位置(219,1913), 大小(78x45), 纵横比2.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 17: 位置(158,1913), 大小(28x45), 纵横比0.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 22: 位置(266,1848), 大小(49x45), 纵横比1.16
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 24: 位置(158,1848), 大小(61x45), 纵横比1.64
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 26: 位置(219,1783), 大小(78x45), 纵横比2.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 28: 位置(158,1783), 大小(28x45), 纵横比0.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 34: 位置(266,1718), 大小(49x45), 纵横比1.16
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 36: 位置(158,1718), 大小(46x45), 纵横比1.04
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 39: 位置(215,1653), 大小(83x45), 纵横比2.52
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 41: 位置(158,1653), 大小(28x45), 纵横比0.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 46: 位置(266,1588), 大小(49x45), 纵横比1.16
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 48: 位置(158,1588), 大小(61x45), 纵横比1.64
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 51: 位置(215,1523), 大小(84x45), 纵横比2.56
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 53: 位置(158,1523), 大小(28x45), 纵横比0.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 58: 位置(266,1458), 大小(49x45), 纵横比1.16
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 60: 位置(158,1458), 大小(61x45), 纵横比1.64
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 62: 位置(219,1393), 大小(78x45), 纵横比2.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 64: 位置(158,1393), 大小(28x45), 纵横比0.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 70: 位置(266,1328), 大小(49x45), 纵横比1.16
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 72: 位置(158,1328), 大小(46x45), 纵横比1.04
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 74: 位置(219,1263), 大小(79x45), 纵横比2.36
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 76: 位置(158,1263), 大小(28x45), 纵横比0.32
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 80: 位置(270,1198), 大小(45x45), 纵横比1.00
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 82: 位置(158,1198), 大小(61x45), 纵横比1.64
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 89: 位置(717,1070), 大小(34x42), 纵横比0.64
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 90: 位置(920,1066), 大小(58x50), 纵横比1.27
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 91: 位置(818,1066), 大小(101x50), 纵横比2.70
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 92: 位置(753,1066), 大小(60x50), 纵横比1.33
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 93: 位置(499,1066), 大小(95x50), 纵横比2.50
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 94: 位置(212,1066), 大小(129x50), 纵横比3.63
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 95: 位置(1419,1065), 大小(81x51), 纵横比1.97
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 97: 位置(599,1065), 大小(118x51), 纵横比3.16
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 98: 位置(347,1065), 大小(151x51), 纵横比4.23
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 102: 位置(1465,860), 大小(49x51), 纵横比0.94
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 106: 位置(145,795), 大小(63x50), 纵横比1.43
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 113: 位置(732,600), 大小(131x51), 纵横比3.58
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 114: 位置(567,600), 大小(164x51), 纵横比4.65
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 116: 位置(148,600), 大小(150x51), 纵横比4.19
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 117: 位置(144,535), 大小(162x51), 纵横比4.58
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 119: 位置(399,470), 大小(133x50), 纵横比3.77
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 121: 位置(777,389), 大小(105x61), 纵横比2.07
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 124: 位置(258,226), 大小(48x47), 纵横比1.04
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 125: 位置(145,216), 大小(104x60), 纵横比2.10
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 区域 126: 位置(316,215), 大小(149x62), 纵横比3.07
+2025-06-07 00:10:25 - MathPaperConverter - INFO - 共识别出 2 个数学公式区域
+2025-06-07 00:10:25 - MathPaperConverter - INFO - 第 5 页检测到 2 个数学区域
+2025-06-07 00:10:25 - MathPaperConverter - DEBUG - 处理第 5 页的第 1 个数学区域
+2025-06-07 00:10:27 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:27 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:27 - MathPaperConverter - DEBUG - 处理第 5 页的第 2 个数学区域
+2025-06-07 00:10:27 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:27 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:28 - MathPaperConverter - INFO - 第 5 页处理完成
+2025-06-07 00:10:28 - MathPaperConverter - INFO - 处理第 6/7 页
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 开始图像增强处理
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 图像尺寸: (2339, 1654, 3)
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 已将彩色图像转换为灰度图
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 已完成图像降噪
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 已完成对比度增强
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 已完成自适应二值化
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 图像增强处理完成
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 第 6 页图像增强完成
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 开始检测数学公式区域
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 已转换为灰度图像
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 已完成二值化处理
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 检测到 150 个潜在区域
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 1: 位置(832,2267), 大小(88x45), 纵横比2.72
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 2: 位置(740,2267), 大小(91x46), 纵横比2.73
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 3: 位置(160,2069), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 4: 位置(224,2064), 大小(50x51), 纵横比0.97
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 6: 位置(193,1990), 大小(128x45), 纵横比4.32
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 8: 位置(157,1990), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 9: 位置(257,1932), 大小(43x32), 纵横比1.92
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 10: 位置(224,1930), 大小(30x40), 纵横比0.50
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 12: 位置(286,1925), 大小(44x45), 纵横比0.96
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 14: 位置(157,1925), 大小(62x45), 纵横比1.68
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 16: 位置(160,1852), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 17: 位置(761,1849), 大小(35x40), 纵横比0.75
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 18: 位置(588,1849), 大小(92x45), 纵横比2.88
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 19: 位置(540,1849), 大小(34x41), 纵横比0.67
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 20: 位置(693,1848), 大小(53x49), 纵横比1.14
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 21: 位置(475,1848), 大小(53x49), 纵横比1.14
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 23: 位置(193,1763), 大小(128x45), 纵横比4.32
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 25: 位置(157,1763), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 27: 位置(257,1694), 大小(43x32), 纵横比1.92
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 28: 位置(224,1692), 大小(30x40), 纵横比0.50
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 30: 位置(286,1687), 大小(44x45), 纵横比0.96
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 32: 位置(157,1687), 大小(63x45), 纵横比1.72
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 33: 位置(160,1614), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 34: 位置(223,1606), 大小(75x57), 纵横比1.49
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 35: 位置(376,1548), 大小(31x40), 纵横比0.55
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 36: 位置(326,1526), 大小(58x39), 纵横比2.00
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 37: 位置(193,1524), 大小(128x45), 纵横比4.32
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 39: 位置(157,1524), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 40: 位置(376,1514), 大小(33x33), 纵横比1.00
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 41: 位置(257,1455), 大小(43x32), 纵横比1.92
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 42: 位置(224,1453), 大小(30x40), 纵横比0.50
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 44: 位置(286,1448), 大小(44x45), 纵横比0.96
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 46: 位置(157,1448), 大小(62x45), 纵横比1.68
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 47: 位置(646,1386), 大小(51x43), 纵横比1.35
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 48: 位置(462,1386), 大小(34x43), 纵横比0.61
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 49: 位置(147,1382), 大小(61x50), 纵横比1.37
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 52: 位置(698,1381), 大小(57x51), 纵横比1.19
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 53: 位置(596,1381), 大小(50x51), 纵横比0.97
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 54: 位置(496,1381), 大小(95x51), 纵横比2.42
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 55: 位置(345,1381), 大小(117x51), 纵横比3.13
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 56: 位置(212,1381), 大小(128x51), 纵横比3.48
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 57: 位置(193,1297), 大小(71x45), 纵横比2.04
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 59: 位置(157,1297), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 60: 位置(268,1287), 大小(104x67), 纵横比1.79
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 61: 位置(257,1228), 大小(43x32), 纵横比1.92
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 62: 位置(224,1226), 大小(30x40), 纵横比0.50
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 64: 位置(286,1221), 大小(44x45), 纵横比0.96
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 66: 位置(157,1221), 大小(63x45), 纵横比1.72
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 67: 位置(267,1158), 大小(62x43), 纵横比1.83
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 68: 位置(193,1156), 大小(71x45), 纵横比2.04
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 70: 位置(157,1156), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 71: 位置(257,1098), 大小(43x32), 纵横比1.92
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 72: 位置(224,1096), 大小(30x40), 纵横比0.50
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 74: 位置(286,1091), 大小(44x45), 纵横比0.96
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 76: 位置(157,1091), 大小(61x45), 纵横比1.64
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 77: 位置(193,1015), 大小(71x45), 纵横比2.04
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 79: 位置(157,1015), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 80: 位置(265,995), 大小(41x89), 纵横比0.30
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 82: 位置(257,947), 大小(43x32), 纵横比1.92
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 83: 位置(224,945), 大小(30x40), 纵横比0.50
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 85: 位置(286,940), 大小(44x45), 纵横比0.96
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 87: 位置(157,940), 大小(61x45), 纵横比1.64
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 88: 位置(867,877), 大小(47x43), 纵横比1.17
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 89: 位置(713,877), 大小(34x43), 纵横比0.61
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 90: 位置(461,876), 大小(34x44), 纵横比0.58
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 91: 位置(144,875), 大小(64x46), 纵横比1.69
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 92: 位置(914,873), 大小(58x50), 纵横比1.27
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 93: 位置(813,873), 大小(51x51), 纵横比1.00
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 94: 位置(747,873), 大小(61x50), 纵横比1.37
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 95: 位置(496,873), 大小(95x50), 纵横比2.50
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 96: 位置(596,872), 大小(117x52), 纵横比3.03
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 97: 位置(345,872), 大小(118x52), 纵横比3.06
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 98: 位置(211,872), 大小(129x51), 纵横比3.52
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 101: 位置(157,799), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 103: 位置(223,734), 大小(106x45), 纵横比3.44
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 104: 位置(157,734), 大小(76x45), 纵横比2.24
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 107: 位置(157,669), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 108: 位置(257,611), 大小(43x32), 纵横比1.92
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 109: 位置(224,609), 大小(30x40), 纵横比0.50
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 111: 位置(286,604), 大小(44x45), 纵横比0.96
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 113: 位置(157,604), 大小(63x45), 纵横比1.72
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 114: 位置(193,539), 大小(124x45), 纵横比4.16
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 116: 位置(157,539), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 117: 位置(210,487), 大小(29x32), 纵横比0.75
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 119: 位置(244,474), 大小(71x45), 纵横比2.04
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 121: 位置(157,474), 大小(62x45), 纵横比1.68
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 122: 位置(145,408), 大小(58x50), 纵横比1.27
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 123: 位置(491,347), 大小(35x42), 纵横比0.68
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 127: 位置(527,342), 大小(60x51), 纵横比1.29
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 129: 位置(144,342), 大小(161x51), 纵横比4.55
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 130: 位置(860,282), 大小(47x43), 纵横比1.17
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 131: 位置(707,282), 大小(35x42), 纵横比0.68
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 132: 位置(167,282), 大小(41x42), 纵横比0.95
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 133: 位置(457,281), 大小(34x44), 纵横比0.58
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 136: 位置(908,277), 大小(57x51), 纵横比1.19
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 137: 位置(806,277), 大小(50x51), 纵横比0.97
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 138: 位置(741,277), 大小(61x51), 纵横比1.32
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 139: 位置(590,277), 大小(117x51), 纵横比3.13
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 140: 位置(492,277), 大小(95x51), 纵横比2.42
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 141: 位置(341,277), 大小(117x51), 纵横比3.13
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 142: 位置(209,277), 大小(128x51), 纵横比3.48
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 143: 位置(193,204), 大小(104x45), 纵横比3.36
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 145: 位置(157,204), 大小(30x45), 纵横比0.40
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 146: 位置(210,152), 大小(29x32), 纵横比0.75
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 148: 位置(244,139), 大小(71x45), 纵横比2.04
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 区域 150: 位置(157,139), 大小(62x45), 纵横比1.68
+2025-06-07 00:10:28 - MathPaperConverter - INFO - 共识别出 1 个数学公式区域
+2025-06-07 00:10:28 - MathPaperConverter - INFO - 第 6 页检测到 1 个数学区域
+2025-06-07 00:10:28 - MathPaperConverter - DEBUG - 处理第 6 页的第 1 个数学区域
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:30 - MathPaperConverter - INFO - 第 6 页处理完成
+2025-06-07 00:10:30 - MathPaperConverter - INFO - 处理第 7/7 页
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 开始图像增强处理
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 图像尺寸: (2339, 1654, 3)
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 已将彩色图像转换为灰度图
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 已完成图像降噪
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 已完成对比度增强
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 已完成自适应二值化
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 图像增强处理完成
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 第 7 页图像增强完成
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 开始检测数学公式区域
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 已转换为灰度图像
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 已完成二值化处理
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 已完成形态学操作
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 检测到 13 个潜在区域
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 区域 7: 位置(437,283), 大小(59x40), 纵横比1.95
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 区域 9: 位置(498,279), 大小(60x43), 纵横比1.74
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 区域 10: 位置(569,259), 大小(41x90), 纵横比0.30
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 区域 11: 位置(342,207), 大小(33x42), 纵横比0.59
+2025-06-07 00:10:30 - MathPaperConverter - INFO - 共识别出 4 个数学公式区域
+2025-06-07 00:10:30 - MathPaperConverter - INFO - 第 7 页检测到 4 个数学区域
+2025-06-07 00:10:30 - MathPaperConverter - DEBUG - 处理第 7 页的第 1 个数学区域
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 处理第 7 页的第 2 个数学区域
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 处理第 7 页的第 3 个数学区域
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 处理第 7 页的第 4 个数学区域
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 开始修正数学文本
+2025-06-07 00:10:31 - MathPaperConverter - DEBUG - 数学文本修正完成
+2025-06-07 00:10:32 - MathPaperConverter - INFO - 第 7 页处理完成
+2025-06-07 00:10:32 - MathPaperConverter - INFO - PDF处理完成，共处理 7 页
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - OCR 识别结果:
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - --------------------------------------------------
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - 绝密 女 启用前 2024 年普通高等学校招生全国统一考试(新课标 ! 卷》 数学 本试卷共 10 页,19 小题,满分 150 分. 注意事项: 
+### 1. 答题前,先将白己的姚叶、准考证号、考场口、座位号填写坊试卷和答题卡上,并将准考证 号桧形码粘贴衰答题卡上的指定位景. 
+### 2. 选拂题的作答: 每小题选出答案后,用 28 铅笔把答题卡上对应题日的答案标马涂黑.写在试 卷、草稽纸和答题卡上的冲答题区域均无效 
+### 3. 填空题和解答题的作答: 用黑色签字笔直接答在答题卡上对应的答题区域内.写块试卷、草 稿纸和答题卡上的准答题区域均无效 4考试结束后,请将本诫卷和答题卡一并上交. CL 送拌题, 札题共 8 小题,每小题 5 分,共 40 分. 在每小题给出的四个选项中,只有 . -个选项是正确的,请把正确的选项填涂在答题丝相应的位景上. EE PS | aq TTA BE CEE EEE A EAR RR A q口 , ALL 
+- B. ### 12. 38 Coda D402: 2 片一= Tri ,创= ) = 1 ALi 
+- B. $1-1$ Coli D -i A 2 
+- B. 1 C 
+- D. 2 ⊥∩⊥∏≤≈∏∞≤∩∠∩∫∩∏∪∪∏∠∠∏⊥∏∫∉≥∉∏∩∏∪∩≤∩∠∫∪∉ B oo 3 ki RIIIECV1YEEeREWYIT{RCP[WENNETee ENRNEY B33 Co∈ on CXT2uvaaxc oof) CORTE ern(xDox20 VENA) ∩∞∏≈∩≥≥∉∩ ∩∏∪∈ ∩≥ D p93 HE , -个选项是正确的,请把正确的选项填涂在答题下相应的位景上. fv 5 G5 ! ! TE I EE RE RA ER URE d口 1 ) ALLY 
+- B. ### 12. 3 Coa Lm n.o4 LOZ; ALi 
+- B. $1-1$ Coli Doi 3H EE = h =x). hh Zh —day. Wx ! A 2 
+- B. 1 C 
+- D. 2 土 己认CostC ,历tancd $tan fs 2, Meoste “有 ) Al RIT 
+- B. 一 (一 
+- D. 3 弓 己认国怡伟国等芸裂宗韧菊有詹伴目志丨城止三自朋匹江罗 儿国佩的作一办, A、2JT 
+- B. 3/3 Co$∈$ D 93x any Cox dux ax<0 oo Lael dy fey CER eg : TIn(Cx 1 
+- D. x么0 ENE ISITE EEE ) 第 1 沥7页 A (
+### 2. 0) 
+- B. | 
+### 1. 0] RAT D [
+### 0. 47) ToT [02zJIE ,面线口$s$∈$ ye 2s$∈$g Bx “二|园忠友个政加 ) ) 8 6 Ad 
+- B. 4 
+- C. o 
+- D. 8 SOCEM foe LAR. SO > Se D EC 2). Hae 30 C xe 罗下创范论干 冠正继的星, ) 
+- A. SU > 100 B了(20) > 1000 C10)K1000 D20)k1000 LOBERREAESE3NEBE64r3L1841if HMHER28ENH64WMOoEXTHBRES2ET{EA 5 yREAERTARdAeeBsEhEII FPMT=200FEATeT=000CigeebLEiiTAVEN EETICENREERTTIAY[ORSIV REL PZu1o)=08413 APY2)500 BPLY2)0 CPOY=2)505 DPOY2)0 WPEAYF=(=De=d)We Ax=3AnonGELY B0x-ld CoMlcxe204f12xD0 DMi=lexeOl VLEorPLNATRE22V(Rnls$1-35$LhC Bd2EFCEEEEEataO)PRYARLy ET Tey=f{x7) S(2xf) PebialllOHLC mn ) RR TIC RN UN ENTER TIA Ea ,创, 八限伟不菊孕深规正态分市一 PZ <u La1s
+### 0. 84L3 ) A PLV > 21 >
+### 0. 2 
+- B. P(X >2)<03 ¢. POY >21>
+### 0. 5 
+- D. PY >2)<08 
+### 0. PLAT F() = (=D (x =4). MW : ) A 一二弘春100的椿才仨怡 
+- B. 0<x 
+### 11. At < f(x) CoMil<xe 
+### 2. d< 2x D<o 
+- D. ile xc OM. [2 x1> f(x) Lier PLEA Tags ee, SV (PR Tel: rf or Lh CRE bal OFLC TUE bdo 20 dF 20 i dE EY ata < OY EMER Ey 40 0) ) A ol PES JI Au-2$ BV 1 + COOTER DRRTINESFTNamRITR STS =OFSEABIE3NEfENES4r3E1S4) 12PLINAGC=luOEUE(E00yFREFi2eC o ) EBEFA]LRAB]T0LCiy Bsyea(O)RERILINAInCe1D)La(eWa= FC1ebeteBle10hLoba(3iOEBeIelb(H1L30s7 RENN1SWCFrPYyeTNPNEINRIAIROASEY fTRIEAGRTLJTEFRURS0ERARETSrSCENTRTROSEETA leItwARIJfATALRFEAMAELLGEnTIESRA12y PYMRHREEIL5DNE3L77BENEHXFEYEHSEEHEESR 150LadBCNAALBeCHILyabeooCils∈C=2cosBeaf+h=F=2ub 1B (0BadBCEFHA34J3fe loLLF1A0L3) TEER WHCAgahS0)F A 2 7a h- CECT C0BEPIVERLECIYriBeILadBPIIIAT901TRL 17W0EP{3HP=ABCDIPLYENABCDPA=AC=2BC=14B=43 ELT 厂一异宣埔在数宏2了 60 Ne 0 RAEI BELLE ATE RH De 0 AS TTC SIEGEL J TRE Dl We OAR 分,改定小皇大倩0 分,然尽范仁农罪武转所连的 TT韶日皙一庞坤木尽的范许的在诚城一儿剧团范比寝吏,止闯惹倩分丨才子2 芸曹宣义 凹、解答题: 本题共 5 小题,共 77 分. 解答应写出文字说明、证明过程或演算步骆. 1S. 0 adBC NIAC Be CHIL ae hen Uils$∈$C = V2 $cos Be a +h =F =2ub [EEN 12) Fr adBC ERA N33 Ae 为惧门C不 : To, LL E1A
+### 0. 3) fi pl 3 U 广- \ 19 | ( Ya ER P20 FIP Cy KiB Ha ABP IIA Ty 90 fT IR 
+### 17. fils 1148 P= ABC
+- D. Po LESH ABCh. PA=4C=
+### 2. BC=
+### 1. 4B=\
+### 3. Vo N p Ea A N= C B CEADLPBHADEMiPRC 0BADLDCILiifA=CP=DI I5UEIRES0)IneaxAy1) 2 CEh=00HLOZ0fafh C3iUEy=)tfEE oRS0S2MILCTcx2RhT 19PhanWLREELWatysdaidyeE fgSanTBT0odymieLTLEEALI4T Ha) CREE(G)1SicjS6(dk C0Tr230EYMaydedy CNL2dm=20sT 1 PoosPs= 8 4 7 KAD al [TAN h(x ny’ I LEIS) Ins Ch Fh =00 日一C三0,求4的量于颊: (21 记日,力线T Sey 是|心仄作艮 > 白肉仨二TE一2,求户闵以页范国, 19, 设历 ITEC VT dyer 是兴圣中义目的霁京数刑,菊坂团河些医项4 吊a 仪一一 吊剖伟 效切. COREE) TSE< S60 (MA data, YE (Ef) = 0] 0 C0 Tm 2 3 SE dy dd, 居(
+### 2. 13]一可外数创: CML 2d = 2 ETAL FET < J) dd, 坂(交月二可分复矶闯标冶 为 Posi PL by EEE 绝密 启用前 2024 年普通高等学校招生全国统一考试(新课标 ! 卷》 数学 本试卷共 10 页,19 小题,满分 1540 分. LEERSHEHSHEYBFESF55BAY SRMANTAEFLRRCAE LEFEHEESMEENEREMH2BHEILEE- FRENEEFLHC)EEKORHL SETENREENESHROEFEEREREEL MEAEEFLREEEXIRIER AFREREWHAABNEEFHLX CoHSHEEECABRSL8DEEBRENES43R$404- CAERIERKWCIEREETEREEERHERL [1 [1a [$2-1$ [1c [EE [-=1n [+71$ [1a [ [-1$s8 [CTE [-1$s8 [1 [1c silk HE , -个选项是正确的,请把正确的选项填涂在答题下相应的位景上. C 【三】 .、选择题, 本题共 3小题,每小题 6 分,共 18 分. 在每小题给出的选项丨,有多项符合 BIHEXRSWENE62WHENGETSE 4 (CREED [-7$v]1BC Clos] [11ACD E [-7$]1ABD =OFSEABIE3NEfEES4r3EIS4) QTR 3 (GES [12] [ K 7] In2 E 0 HHO PURRSEEAJIL5NEL3X775BENEHX E [-+v1n 3 a3 [ 0 C0FTEEIRON3Y2v6Oux2p0 ($1-2$ [SIREN ETN odlk7i [GRRE | hi (2 3 [ 2 3 59 心余】 属 3 (L2).(L6).( [ws 5 31 i刀 见绢 来 团 EL; 目 21 i刀 LS f 席7贾/江 7页 丨诊 
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - --------------------------------------------------
+2025-06-07 00:10:32 - MathPaperConverter - INFO - 开始转换为Markdown格式
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - 输入文本长度: 4353 字符
+2025-06-07 00:10:32 - MathPaperConverter - INFO - Markdown转换完成
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - 输出文本长度: 4476 字符
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - Markdown 转换结果:
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - --------------------------------------------------
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - ---
+title: 数学试卷
+date: 2025-06-07
+type: math_paper
+version: 1.3.1
+---
+
+绝密 女 启用前 2024 年普通高等学校招生全国统一考试(新课标 ! 卷》 数学 本试卷共 10 页,19 小题,满分 150 分. 注意事项: 
+### 1. 答题前,先将白己的姚叶、准考证号、考场口、座位号填写坊试卷和答题卡上,并将准考证 号桧形码粘贴衰答题卡上的指定位景. 
+### 2. 选拂题的作答: 每小题选出答案后,用 28 铅笔把答题卡上对应题日的答案标马涂黑.写在试 卷、草稽纸和答题卡上的冲答题区域均无效 
+### 3. 填空题和解答题的作答: 用黑色签字笔直接答在答题卡上对应的答题区域内.写块试卷、草 稿纸和答题卡上的准答题区域均无效 4考试结束后,请将本诫卷和答题卡一并上交. CL 送拌题, 札题共 8 小题,每小题 5 分,共 40 分. 在每小题给出的四个选项中,只有 . -个选项是正确的,请把正确的选项填涂在答题丝相应的位景上. EE PS | aq TTA BE CEE EEE A EAR RR A q口 , ALL 
+
+- B. ### 12. 38 Coda D402: 2 片一= Tri ,创= ) = 1 ALi 
+- B. 
+$1-1$
+ Coli D -i A 2 
+
+- B. 1 C 
+- D. 2 ⊥∩⊥∏≤≈∏∞≤∩∠∩∫∩∏∪∪∏∠∠∏⊥∏∫∉≥∉∏∩∏∪∩≤∩∠∫∪∉ B oo 3 ki RIIIECV1YEEeREWYIT{RCP[WENNETee ENRNEY B33 Co∈ on CXT2uvaaxc oof) CORTE ern(xDox20 VENA) ∩∞∏≈∩≥≥∉∩ ∩∏∪∈ ∩≥ D p93 HE , -个选项是正确的,请把正确的选项填涂在答题下相应的位景上. fv 5 G5 ! ! TE I EE RE RA ER URE d口 1 ) ALLY 
+- B. ### 12. 3 Coa Lm n.o4 LOZ; ALi 
+- B. 
+$1-1$
+ Coli Doi 3H EE = h =x). hh Zh —day. Wx ! A 2 
+
+- B. 1 C 
+- D. 2 土 己认CostC ,历tancd 
+
+$$
+tan fs 2, Meoste “有 ) Al RIT 
+- B. 一 (一 
+- D. 3 弓 己认国怡伟国等芸裂宗韧菊有詹伴目志丨城止三自朋匹江罗 儿国佩的作一办, A、2JT 
+- B. 3/3 Co
+$$
+
+∈
+
+$$
+ D 93x any Cox dux ax<0 oo Lael dy fey CER eg : TIn(Cx 1 
+- D. x么0 ENE ISITE EEE ) 第 1 沥7页 A (
+### 2. 0) 
+- B. | 
+### 1. 0] RAT D [
+### 0. 47) ToT [02zJIE ,面线口
+$$
+
+s
+$∈$
+ ye 2s
+$∈$
+g Bx “二|园忠友个政加 ) ) 8 6 Ad 
+
+- B. 4 
+- C. o 
+- D. 8 SOCEM foe LAR. SO > Se D EC 2). Hae 30 C xe 罗下创范论干 冠正继的星, ) 
+- A. SU > 100 B了(20) > 1000 C10)K1000 D20)k1000 LOBERREAESE3NEBE64r3L1841if HMHER28ENH64WMOoEXTHBRES2ET{EA 5 yREAERTARdAeeBsEhEII FPMT=200FEATeT=000CigeebLEiiTAVEN EETICENREERTTIAY[ORSIV REL PZu1o)=08413 APY2)500 BPLY2)0 CPOY=2)505 DPOY2)0 WPEAYF=(=De=d)We Ax=3AnonGELY B0x-ld CoMlcxe204f12xD0 DMi=lexeOl VLEorPLNATRE22V(Rnls
+$1-35$
+LhC Bd2EFCEEEEEataO)PRYARLy ET Tey=f{x7) S(2xf) PebialllOHLC mn ) RR TIC RN UN ENTER TIA Ea ,创, 八限伟不菊孕深规正态分市一 PZ <u La1s
+### 0. 84L3 ) A PLV > 21 >
+### 0. 2 
+
+- B. P(X >2)<03 ¢. POY >21>
+
+### 0. 5 
+
+- D. PY >2)<08 
+
+### 0. PLAT F() = (=D (x =4). MW : ) A 一二弘春100的椿才仨怡 
+
+- B. 0<x 
+
+### 11. At < f(x) CoMil<xe 
+### 2. d< 2x D<o 
+
+- D. ile xc OM. [2 x1> f(x) Lier PLEA Tags ee, SV (PR Tel: rf or Lh CRE bal OFLC TUE bdo 20 dF 20 i dE EY ata < OY EMER Ey 40 0) ) A ol PES JI Au-2
+$ BV 1 + COOTER DRRTINESFTNamRITR STS =OFSEABIE3NEfENES4r3E1S4) 12PLINAGC=luOEUE(E00yFREFi2eC o ) EBEFA]LRAB]T0LCiy Bsyea(O)RERILINAInCe1D)La(eWa= FC1ebeteBle10hLoba(3iOEBeIelb(H1L30s7 RENN1SWCFrPYyeTNPNEINRIAIROASEY fTRIEAGRTLJTEFRURS0ERARETSrSCENTRTROSEETA leItwARIJfATALRFEAMAELLGEnTIESRA12y PYMRHREEIL5DNE3L77BENEHXFEYEHSEEHEESR 150LadBCNAALBeCHILyabeooCils∈C=2cosBeaf+h=F=2ub 1B (0BadBCEFHA34J3fe loLLF1A0L3) TEER WHCAgahS0)F A 2 7a h- CECT C0BEPIVERLECIYriBeILadBPIIIAT901TRL 17W0EP{3HP=ABCDIPLYENABCDPA=AC=2BC=14B=43 ELT 厂一异宣埔在数宏2了 60 Ne 0 RAEI BELLE ATE RH De 0 AS TTC SIEGEL J TRE Dl We OAR 分,改定小皇大倩0 分,然尽范仁农罪武转所连的 TT韶日皙一庞坤木尽的范许的在诚城一儿剧团范比寝吏,止闯惹倩分丨才子2 芸曹宣义 凹、解答题: 本题共 5 小题,共 77 分. 解答应写出文字说明、证明过程或演算步骆. 1S. 0 adBC NIAC Be CHIL ae hen Uils$
+∈
+$C = V2 $
+cos Be a +h =F =2ub [EEN 12) Fr adBC ERA N33 Ae 为惧门C不 : To, LL E1A
+### 0. 3) fi pl 3 U 广- \ 19 | ( Ya ER P20 FIP Cy KiB Ha ABP IIA Ty 90 fT IR 
+### 17. fils 1148 P= ABC
+
+- D. Po LESH ABCh. PA=4C=
+
+### 2. BC=
+### 1. 4B=\
+### 3. Vo N p Ea A N= C B CEADLPBHADEMiPRC 0BADLDCILiifA=CP=DI I5UEIRES0)IneaxAy1) 2 CEh=00HLOZ0fafh C3iUEy=)tfEE oRS0S2MILCTcx2RhT 19PhanWLREELWatysdaidyeE fgSanTBT0odymieLTLEEALI4T Ha) CREE(G)1SicjS6(dk C0Tr230EYMaydedy CNL2dm=20sT 1 PoosPs= 8 4 7 KAD al [TAN h(x ny’ I LEIS) Ins Ch Fh =00 日一C三0,求4的量于颊: (21 记日,力线T Sey 是|心仄作艮 > 白肉仨二TE一2,求户闵以页范国, 19, 设历 ITEC VT dyer 是兴圣中义目的霁京数刑,菊坂团河些医项4 吊a 仪一一 吊剖伟 效切. COREE) TSE< S60 (MA data, YE (Ef) = 0] 0 C0 Tm 2 3 SE dy dd, 居(
+### 2. 13]一可外数创: CML 2d = 2 ETAL FET < J) dd, 坂(交月二可分复矶闯标冶 为 Posi PL by EEE 绝密 启用前 2024 年普通高等学校招生全国统一考试(新课标 ! 卷》 数学 本试卷共 10 页,19 小题,满分 1540 分. LEERSHEHSHEYBFESF55BAY SRMANTAEFLRRCAE LEFEHEESMEENEREMH2BHEILEE- FRENEEFLHC)EEKORHL SETENREENESHROEFEEREREEL MEAEEFLREEEXIRIER AFREREWHAABNEEFHLX CoHSHEEECABRSL8DEEBRENES43R
+$404- CAERIERKWCIEREETEREEERHERL [1 [1a [$
+2-1
+$ [1c [EE [-=1n [+71$
+ [1a [ [-1
+$s8 [CTE [-1$
+s8 [1 [1c silk HE , -个选项是正确的,请把正确的选项填涂在答题下相应的位景上. C 【三】 .、选择题, 本题共 3小题,每小题 6 分,共 18 分. 在每小题给出的选项丨,有多项符合 BIHEXRSWENE62WHENGETSE 4 (CREED [-7
+$v]1BC Clos] [11ACD E [-7$
+]1ABD =OFSEABIE3NEfEES4r3EIS4) QTR 3 (GES [12] [ K 7] In2 E 0 HHO PURRSEEAJIL5NEL3X775BENEHX E [-+v1n 3 a3 [ 0 C0FTEEIRON3Y2v6Oux2p0 (
+$1-2$
+ [SIREN ETN odlk7i [GRRE | hi (2 3 [ 2 3 59 心余】 属 3 (L2).(L6).( [ws 5 31 i刀 见绢 来 团 EL; 目 21 i刀 LS f 席7贾/江 7页 丨诊 
+2025-06-07 00:10:32 - MathPaperConverter - DEBUG - --------------------------------------------------
+2025-06-07 00:10:32 - MathPaperConverter - INFO - 已生成 Markdown 文件：output/2024_math_nation_newI_20250607_001032.md
+2025-06-07 00:10:32 - MathPaperConverter - INFO - 转换日志已保存到：output/2024_math_nation_newI_20250607_001032_conversion.json
+2025-06-07 00:10:32 - MathPaperConverter - INFO - 当前版本（v1.3.0）主要特性：
+2025-06-07 00:10:32 - MathPaperConverter - INFO - - 集成equ训练数据支持数学公式识别
+2025-06-07 00:10:32 - MathPaperConverter - INFO - - 添加数学符号白名单
+2025-06-07 00:10:32 - MathPaperConverter - INFO - - 智能数学公式区域检测
+2025-06-07 00:10:32 - MathPaperConverter - INFO - - 自适应图像增强处理
+2025-06-07 00:10:32 - MathPaperConverter - INFO - - 数学文本智能校正
+2025-06-07 00:10:32 - MathPaperConverter - INFO - - 改进的日志系统（按时间戳分类）
+2025-06-07 00:10:32 - MathPaperConverter - INFO - 成功处理：2024_math_nation_newI.pdf

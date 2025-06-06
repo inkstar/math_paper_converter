@@ -1,0 +1,55 @@
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 日志文件位置: output/logs/20250607/converter_20250607_013028.log
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 当前版本: v1.3.1
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 操作系统: Darwin 24.5.0
+2025-06-07 01:30:28 - MathPaperConverter - INFO - Python版本: 3.10.13 (main, Sep 11 2023, 08:24:56) [Clang 14.0.6 ]
+2025-06-07 01:30:28 - MathPaperConverter - INFO - Tesseract版本: 5.5.1
+2025-06-07 01:30:28 - MathPaperConverter - INFO - OpenCV版本: 4.11.0
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 初始化配置:
+2025-06-07 01:30:28 - MathPaperConverter - INFO - - 输入目录: input
+2025-06-07 01:30:28 - MathPaperConverter - INFO - - 输出目录: output
+2025-06-07 01:30:28 - MathPaperConverter - INFO - - 模板目录: templates
+2025-06-07 01:30:28 - MathPaperConverter - INFO - - 临时目录: temp
+2025-06-07 01:30:28 - MathPaperConverter - INFO - - 日志目录: output/logs
+2025-06-07 01:30:28 - MathPaperConverter - INFO - OCR配置已更新：
+2025-06-07 01:30:28 - MathPaperConverter - INFO - - 普通文本：--oem 1 --psm 3 -l chi_sim+eng -c preserve_interword_spaces=1 -c tessedit_char_blacklist=|~`@#$%^&* -c textord_tabfind_find_tables=0 -c tessedit_do_invert=0 -c textord_heavy_nr=0 -c textord_min_linesize=2.5
+2025-06-07 01:30:28 - MathPaperConverter - INFO - - 数学公式：--oem 1 --psm 6 -l chi_sim+eng -c tessedit_char_whitelist="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+-=×÷<>≤≥≠≈∈∉⊆⊂⊇⊃∪∩∅∞∫∑∏√∂∇∆∵∴⊥∥∠∟∣∤∥∦∧∨∩∪⊕⊗→←↑↓↔⇒⇐⇔∀∃∄∎□■△▲○●⊙⊗⊕∘" -c preserve_interword_spaces=1 -c tessedit_char_blacklist=|~`@#$%^&* -c textord_tabfind_find_tables=0 -c tessedit_do_invert=0 -c textord_heavy_nr=0 -c textord_min_linesize=2.5
+2025-06-07 01:30:28 - MathPaperConverter - INFO - MathPaperConverter 版本 1.3.1 初始化完成
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 开始批量处理文件
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 在输入目录中找到 1 个文件
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 开始处理文件: 2024_math_nation_newI.pdf
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 开始处理文件：2024_math_nation_newI.pdf
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 开始处理PDF文件: input/2024_math_nation_newI.pdf
+2025-06-07 01:30:28 - MathPaperConverter - INFO - PDF共 7 页
+2025-06-07 01:30:28 - MathPaperConverter - INFO - 处理第 1/7 页
+2025-06-07 01:30:29 - MathPaperConverter - ERROR - 图像预处理失败: 'MathPaperConverter' object has no attribute 'debug'
+2025-06-07 01:30:34 - MathPaperConverter - ERROR - 图片处理失败：OpenCV(4.11.0) /Users/xperience/GHA-Actions-OpenCV/_work/opencv-python/opencv-python/opencv/modules/imgproc/src/contours_new.cpp:330: error: (-2:Unspecified error) in function 'static shared_ptr<ContourScanner_> ContourScanner_::create(Mat, int, int, Point)'
+> Modes other than RETR_FLOODFILL and RETR_CCOMP support only CV_8UC1 images (expected: 'img.type() == CV_8UC1'), where
+>     'img.type()' is 16 (CV_8UC3)
+> must be equal to
+>     'CV_8UC1' is 0 (CV_8UC1)
+
+2025-06-07 01:30:34 - MathPaperConverter - ERROR - PDF处理失败: OpenCV(4.11.0) /Users/xperience/GHA-Actions-OpenCV/_work/opencv-python/opencv-python/opencv/modules/imgproc/src/contours_new.cpp:330: error: (-2:Unspecified error) in function 'static shared_ptr<ContourScanner_> ContourScanner_::create(Mat, int, int, Point)'
+> Modes other than RETR_FLOODFILL and RETR_CCOMP support only CV_8UC1 images (expected: 'img.type() == CV_8UC1'), where
+>     'img.type()' is 16 (CV_8UC3)
+> must be equal to
+>     'CV_8UC1' is 0 (CV_8UC1)
+
+2025-06-07 01:30:34 - MathPaperConverter - ERROR - 处理文件 2024_math_nation_newI.pdf 时出错：OpenCV(4.11.0) /Users/xperience/GHA-Actions-OpenCV/_work/opencv-python/opencv-python/opencv/modules/imgproc/src/contours_new.cpp:330: error: (-2:Unspecified error) in function 'static shared_ptr<ContourScanner_> ContourScanner_::create(Mat, int, int, Point)'
+> Modes other than RETR_FLOODFILL and RETR_CCOMP support only CV_8UC1 images (expected: 'img.type() == CV_8UC1'), where
+>     'img.type()' is 16 (CV_8UC3)
+> must be equal to
+>     'CV_8UC1' is 0 (CV_8UC1)
+
+2025-06-07 01:30:34 - MathPaperConverter - INFO - 转换日志已保存到：output/2024_math_nation_newI_20250607_013034_conversion.json
+2025-06-07 01:30:34 - MathPaperConverter - INFO - 当前版本（v1.3.1）主要特性：
+2025-06-07 01:30:34 - MathPaperConverter - INFO - - 修复LaTeX模板处理问题
+2025-06-07 01:30:34 - MathPaperConverter - INFO - - 改进日志系统版本记录
+2025-06-07 01:30:34 - MathPaperConverter - INFO - - 优化错误处理和报告
+2025-06-07 01:30:34 - MathPaperConverter - INFO - - 修复编码问题
+2025-06-07 01:30:34 - MathPaperConverter - INFO - - 添加版本信息到输出文件
+2025-06-07 01:30:34 - MathPaperConverter - ERROR - 处理文件 2024_math_nation_newI.pdf 时出错：OpenCV(4.11.0) /Users/xperience/GHA-Actions-OpenCV/_work/opencv-python/opencv-python/opencv/modules/imgproc/src/contours_new.cpp:330: error: (-2:Unspecified error) in function 'static shared_ptr<ContourScanner_> ContourScanner_::create(Mat, int, int, Point)'
+> Modes other than RETR_FLOODFILL and RETR_CCOMP support only CV_8UC1 images (expected: 'img.type() == CV_8UC1'), where
+>     'img.type()' is 16 (CV_8UC3)
+> must be equal to
+>     'CV_8UC1' is 0 (CV_8UC1)
+

@@ -1,0 +1,38 @@
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 日志文件位置: output/logs/20250607/converter_20250607_000323.log
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 当前版本: v1.3.1
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 操作系统: Darwin 24.5.0
+2025-06-07 00:03:23 - MathPaperConverter - INFO - Python版本: 3.10.13 (main, Sep 11 2023, 08:24:56) [Clang 14.0.6 ]
+2025-06-07 00:03:23 - MathPaperConverter - INFO - Tesseract版本: 5.5.1
+2025-06-07 00:03:23 - MathPaperConverter - INFO - OpenCV版本: 4.11.0
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 初始化配置:
+2025-06-07 00:03:23 - MathPaperConverter - INFO - - 输入目录: input
+2025-06-07 00:03:23 - MathPaperConverter - INFO - - 输出目录: output
+2025-06-07 00:03:23 - MathPaperConverter - INFO - - 模板目录: templates
+2025-06-07 00:03:23 - MathPaperConverter - INFO - - 临时目录: temp
+2025-06-07 00:03:23 - MathPaperConverter - INFO - - 日志目录: output/logs
+2025-06-07 00:03:23 - MathPaperConverter - INFO - MathPaperConverter 版本 1.3.1 初始化完成
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 开始批量处理文件
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 在输入目录中找到 1 个文件
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 开始处理文件: 2024_math_nation_newI.pdf
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 开始处理文件：2024_math_nation_newI.pdf
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 开始处理PDF文件: input/2024_math_nation_newI.pdf
+2025-06-07 00:03:23 - MathPaperConverter - INFO - PDF共 7 页
+2025-06-07 00:03:23 - MathPaperConverter - INFO - 处理第 1/7 页
+2025-06-07 00:03:24 - MathPaperConverter - INFO - 共识别出 57 个数学公式区域
+2025-06-07 00:03:24 - MathPaperConverter - INFO - 第 1 页检测到 57 个数学区域
+2025-06-07 00:03:53 - MathPaperConverter - INFO - 第 1 页处理完成
+2025-06-07 00:03:53 - MathPaperConverter - INFO - 处理第 2/7 页
+2025-06-07 00:03:53 - MathPaperConverter - INFO - 共识别出 4 个数学公式区域
+2025-06-07 00:03:53 - MathPaperConverter - INFO - 第 2 页检测到 4 个数学区域
+2025-06-07 00:03:57 - MathPaperConverter - INFO - 第 2 页处理完成
+2025-06-07 00:03:57 - MathPaperConverter - INFO - 处理第 3/7 页
+2025-06-07 00:03:58 - MathPaperConverter - INFO - 共识别出 17 个数学公式区域
+2025-06-07 00:03:58 - MathPaperConverter - INFO - 第 3 页检测到 17 个数学区域
+2025-06-07 00:04:10 - MathPaperConverter - INFO - 第 3 页处理完成
+2025-06-07 00:04:10 - MathPaperConverter - INFO - 处理第 4/7 页
+2025-06-07 00:04:10 - MathPaperConverter - INFO - 共识别出 2 个数学公式区域
+2025-06-07 00:04:10 - MathPaperConverter - INFO - 第 4 页检测到 2 个数学区域
+2025-06-07 00:04:13 - MathPaperConverter - INFO - 第 4 页处理完成
+2025-06-07 00:04:13 - MathPaperConverter - INFO - 处理第 5/7 页
+2025-06-07 00:04:14 - MathPaperConverter - INFO - 共识别出 52 个数学公式区域
+2025-06-07 00:04:14 - MathPaperConverter - INFO - 第 5 页检测到 52 个数学区域
